@@ -1,0 +1,2001 @@
+PatientID,Age,Gender,Disease,Length_of_Stay,Cost,Outcome,Hospital,Doctor_Visits,Insurance
+1,67,Male,Stroke,17,8412.92,Recovered,City Hospital,9,Yes
+2,18,Male,Diabetes,34,13704.8,Recovered,City Hospital,3,Yes
+3,84,Female,COVID-19,38,18849.82,Dead,Care Clinic,3,Yes
+4,58,Male,Hypertension,22,15187.69,Recovered,General Hospital,4,Yes
+5,87,Male,Heart Disease,39,17942.71,Recovered,City Hospital,1,Yes
+6,48,Male,Cancer,22,10661.12,Recovered,Care Clinic,2,Yes
+7,74,Male,Stroke,15,12473.28,Dead,General Hospital,13,Yes
+8,33,Other,Diabetes,26,14172.9,Recovered,Care Clinic,2,No
+9,47,Female,Hypertension,20,12440.8,Recovered,Specialty Center,3,Yes
+10,26,Male,Heart Disease,20,12206.12,Recovered,City Hospital,6,Yes
+11,84,Female,Hypertension,31,14124.89,Recovered,General Hospital,12,Yes
+12,79,Female,Heart Disease,19,12127.45,Recovered,City Hospital,11,Yes
+13,37,Female,Asthma,28,12685.89,Recovered,Care Clinic,5,Yes
+14,81,Female,Hypertension,34,17149.89,Recovered,General Hospital,12,No
+15,69,Male,Hypertension,3,8341.16,Recovered,General Hospital,4,Yes
+16,50,Other,Asthma,20,16848.34,Recovered,General Hospital,12,Yes
+17,56,Male,Stroke,14,7515.47,Recovered,Specialty Center,11,No
+18,68,Male,Heart Disease,18,14621.33,Recovered,Specialty Center,9,Yes
+19,3,Male,Asthma,11,7493.46,Recovered,Specialty Center,8,No
+20,85,Male,Hypertension,32,13555.85,Recovered,Care Clinic,12,No
+21,40,Male,Kidney Disease,15,10498.35,Recovered,General Hospital,7,Yes
+22,67,Male,Diabetes,16,14904.02,Under Treatment,General Hospital,7,Yes
+23,85,Male,Stroke,25,11061.39,Recovered,Specialty Center,12,Yes
+24,48,Male,Diabetes,31,17362.04,Dead,Specialty Center,6,Yes
+25,62,Male,Heart Disease,3,10233.22,Recovered,Specialty Center,1,Yes
+26,49,Female,Kidney Disease,7,11801.8,Dead,Care Clinic,1,No
+27,8,Female,Stroke,10,7959.75,Recovered,General Hospital,8,Yes
+28,53,Female,Hypertension,29,16334.99,Recovered,Specialty Center,10,Yes
+29,86,Male,Heart Disease,1,7316.84,Recovered,General Hospital,12,Yes
+30,28,Female,Kidney Disease,31,15957.06,Under Treatment,General Hospital,4,Yes
+31,35,Female,Diabetes,27,12699.26,Recovered,City Hospital,11,No
+32,77,Male,Kidney Disease,31,9905.24,Recovered,Specialty Center,4,Yes
+33,41,Male,Diabetes,18,12002.71,Recovered,General Hospital,9,No
+34,4,Male,Heart Disease,15,12735.46,Recovered,City Hospital,1,Yes
+35,70,Male,Heart Disease,32,17313.29,Recovered,Specialty Center,8,Yes
+36,65,Male,COVID-19,17,12174.02,Recovered,Specialty Center,6,Yes
+37,76,Male,Diabetes,18,10612.86,Recovered,Specialty Center,5,No
+38,35,Female,Heart Disease,13,8381.21,Recovered,General Hospital,13,Yes
+39,59,Male,Hypertension,29,16306.99,Recovered,General Hospital,5,Yes
+40,11,Female,COVID-19,34,17772.16,Under Treatment,Care Clinic,1,Yes
+41,23,Female,Asthma,1,7152.79,Recovered,General Hospital,2,Yes
+42,78,Female,COVID-19,15,11397.75,Recovered,Specialty Center,12,Yes
+43,19,Male,Asthma,6,8968.97,Recovered,General Hospital,11,Yes
+44,16,Male,Kidney Disease,34,14266.29,Dead,Specialty Center,3,No
+45,28,Male,Kidney Disease,6,10714.66,Recovered,Care Clinic,8,Yes
+46,31,Male,Asthma,14,14162.49,Recovered,General Hospital,1,No
+47,53,Female,Asthma,2,3333.41,Recovered,Care Clinic,12,Yes
+48,71,Female,Asthma,6,9817.41,Dead,Specialty Center,12,Yes
+49,27,Male,COVID-19,25,14290.82,Recovered,General Hospital,2,Yes
+50,81,Male,Hypertension,14,10095.26,Recovered,General Hospital,4,Yes
+51,7,Male,Cancer,21,9804.24,Recovered,City Hospital,8,Yes
+52,15,Male,Asthma,18,15864.85,Recovered,General Hospital,7,Yes
+53,76,Male,Kidney Disease,39,16307.15,Recovered,Care Clinic,8,Yes
+54,55,Female,COVID-19,34,19858.03,Recovered,Care Clinic,8,Yes
+55,72,Male,Cancer,13,12456.82,Recovered,Specialty Center,14,No
+56,2,Male,Heart Disease,14,10647.69,Recovered,City Hospital,14,Yes
+57,44,Male,Asthma,22,12071.4,Recovered,Care Clinic,6,Yes
+58,59,Male,COVID-19,5,8716.07,Recovered,General Hospital,13,Yes
+59,56,Female,Stroke,27,15075.74,Recovered,Care Clinic,6,No
+60,26,Female,Diabetes,24,13456.65,Dead,General Hospital,4,No
+61,51,Female,COVID-19,33,14234.37,Recovered,General Hospital,4,Yes
+62,85,Female,Kidney Disease,13,12999.41,Recovered,Specialty Center,1,No
+63,57,Female,Kidney Disease,37,20410.15,Dead,General Hospital,13,Yes
+64,50,Male,Diabetes,37,16196.68,Recovered,City Hospital,1,Yes
+65,13,Female,Stroke,21,12644.37,Recovered,Care Clinic,7,Yes
+66,19,Female,Asthma,38,18378.44,Recovered,General Hospital,8,No
+67,82,Female,Diabetes,16,10153.17,Dead,Specialty Center,8,No
+68,2,Male,Diabetes,1,2011.9,Recovered,Care Clinic,9,Yes
+69,52,Other,COVID-19,36,16386.49,Recovered,City Hospital,1,Yes
+70,45,Female,Hypertension,28,16694.8,Recovered,City Hospital,4,Yes
+71,49,Male,Kidney Disease,9,6009.66,Recovered,Specialty Center,4,Yes
+72,57,Female,Asthma,16,5598.09,Recovered,General Hospital,2,No
+73,50,Female,Diabetes,36,17490.1,Recovered,General Hospital,3,Yes
+74,87,Female,Kidney Disease,32,12487.75,Recovered,City Hospital,6,Yes
+75,4,Female,Stroke,14,6990.74,Recovered,City Hospital,5,Yes
+76,68,Female,Asthma,22,9546.41,Dead,General Hospital,7,No
+77,12,Male,Hypertension,16,11824.78,Recovered,Care Clinic,3,Yes
+78,22,Male,Stroke,9,12514.69,Recovered,City Hospital,4,Yes
+79,4,Other,Stroke,33,11831.13,Dead,General Hospital,5,Yes
+80,12,Female,Kidney Disease,13,10776.4,Recovered,Care Clinic,8,Yes
+81,4,Female,Asthma,33,15989.47,Recovered,General Hospital,4,Yes
+82,7,Male,Asthma,25,13774.57,Recovered,General Hospital,11,No
+83,10,Male,Stroke,6,10076.07,Recovered,Specialty Center,13,Yes
+84,88,Other,Kidney Disease,2,7438.6,Dead,City Hospital,4,Yes
+85,15,Male,Stroke,37,12673.69,Recovered,Specialty Center,13,Yes
+86,84,Female,Asthma,7,9341.66,Under Treatment,Care Clinic,7,No
+87,71,Male,Heart Disease,22,15110.26,Recovered,Specialty Center,12,No
+88,13,Male,Hypertension,5,7598.5,Recovered,Specialty Center,13,No
+89,55,Female,Kidney Disease,29,12183.1,Recovered,General Hospital,10,No
+90,28,Female,Asthma,1,9267.45,Recovered,General Hospital,3,No
+91,39,Female,COVID-19,5,6913.02,Recovered,General Hospital,10,Yes
+92,18,Male,Hypertension,19,11110.09,Recovered,Specialty Center,9,Yes
+93,62,Male,Stroke,3,9834.57,Recovered,Specialty Center,10,Yes
+94,75,Male,Stroke,8,10436.21,Recovered,Specialty Center,4,Yes
+95,66,Female,Heart Disease,37,22179.7,Dead,General Hospital,2,No
+96,48,Female,COVID-19,7,7766.22,Recovered,General Hospital,2,No
+97,17,Male,Cancer,37,19090.94,Recovered,City Hospital,7,Yes
+98,6,Male,Cancer,23,10578.01,Recovered,Specialty Center,13,Yes
+99,87,Male,Asthma,37,21546.73,Recovered,Care Clinic,11,Yes
+100,47,Female,Cancer,24,16642.13,Recovered,City Hospital,14,Yes
+101,16,Female,Asthma,32,16927.47,Recovered,City Hospital,2,Yes
+102,60,Other,COVID-19,1,3904.63,Recovered,Care Clinic,14,Yes
+103,41,Male,Heart Disease,33,16607.8,Recovered,City Hospital,1,Yes
+104,26,Female,Heart Disease,30,12779.21,Recovered,Specialty Center,1,No
+105,46,Female,Diabetes,16,12844.07,Recovered,City Hospital,9,No
+106,50,Male,Hypertension,5,8681.48,Recovered,City Hospital,10,Yes
+107,1,Male,Asthma,25,12826.83,Recovered,City Hospital,1,Yes
+108,36,Male,Hypertension,26,18398.22,Recovered,City Hospital,10,Yes
+109,30,Male,Stroke,38,14433.28,Recovered,City Hospital,8,Yes
+110,2,Male,COVID-19,12,8723.28,Recovered,City Hospital,10,No
+111,84,Male,Diabetes,31,16604.49,Recovered,General Hospital,6,Yes
+112,69,Male,Asthma,17,9815.36,Under Treatment,General Hospital,11,Yes
+113,31,Female,Kidney Disease,18,10156.99,Under Treatment,Care Clinic,10,Yes
+114,8,Female,Kidney Disease,32,17351.51,Recovered,City Hospital,3,No
+115,61,Male,Diabetes,27,16065.16,Recovered,City Hospital,3,Yes
+116,66,Female,Diabetes,6,13400.41,Under Treatment,Care Clinic,1,Yes
+117,77,Female,Cancer,28,15581.73,Recovered,Care Clinic,13,Yes
+118,68,Male,Hypertension,31,17485.15,Recovered,Specialty Center,13,No
+119,45,Female,Cancer,22,12629.67,Dead,General Hospital,9,No
+120,52,Male,Asthma,28,13453.7,Recovered,City Hospital,13,Yes
+121,8,Male,Cancer,36,16485.29,Recovered,Specialty Center,13,Yes
+122,89,Female,Asthma,9,7921.3,Recovered,General Hospital,4,Yes
+123,71,Male,Kidney Disease,8,11915.5,Dead,General Hospital,4,Yes
+124,14,Female,Heart Disease,34,13533.05,Recovered,City Hospital,10,Yes
+125,29,Female,COVID-19,12,12016.53,Recovered,City Hospital,7,Yes
+126,64,Female,Asthma,31,19954.07,Recovered,General Hospital,7,No
+127,85,Female,Stroke,36,15838.27,Recovered,General Hospital,3,No
+128,37,Female,Hypertension,7,11985.89,Recovered,Care Clinic,5,Yes
+129,41,Male,Stroke,39,17717.12,Recovered,General Hospital,4,No
+130,89,Female,Cancer,8,9251.01,Recovered,Specialty Center,3,Yes
+131,64,Female,Hypertension,23,14890.48,Recovered,Care Clinic,1,Yes
+132,59,Female,Hypertension,21,13970.15,Recovered,Specialty Center,7,Yes
+133,78,Female,Heart Disease,27,15063.09,Recovered,City Hospital,12,Yes
+134,9,Male,Hypertension,13,10359.13,Recovered,General Hospital,3,Yes
+135,79,Male,Hypertension,3,6079.54,Recovered,General Hospital,7,No
+136,7,Female,Diabetes,20,16220.29,Recovered,Care Clinic,5,No
+137,66,Male,Cancer,11,10520.74,Recovered,General Hospital,9,Yes
+138,71,Female,Kidney Disease,34,17654.71,Recovered,City Hospital,3,Yes
+139,41,Male,COVID-19,2,12879.59,Recovered,Specialty Center,14,No
+140,75,Female,Cancer,33,17802.84,Recovered,Specialty Center,12,Yes
+141,77,Male,Kidney Disease,7,6195.61,Recovered,Care Clinic,9,Yes
+142,77,Male,Kidney Disease,31,12030.7,Recovered,City Hospital,4,Yes
+143,26,Male,Stroke,28,19087.85,Recovered,Specialty Center,10,Yes
+144,8,Other,Hypertension,27,9627.53,Recovered,Specialty Center,14,No
+145,14,Male,Diabetes,17,9480.91,Under Treatment,Care Clinic,10,Yes
+146,45,Female,COVID-19,27,15491.9,Recovered,Specialty Center,14,No
+147,2,Male,Heart Disease,14,11296.09,Recovered,Specialty Center,3,Yes
+148,42,Female,Heart Disease,13,6624.56,Recovered,Specialty Center,13,Yes
+149,79,Male,Asthma,34,15815.55,Recovered,General Hospital,14,No
+150,57,Male,Stroke,26,18570.3,Recovered,General Hospital,7,Yes
+151,88,Female,Heart Disease,26,11331.49,Recovered,City Hospital,8,Yes
+152,64,Female,Hypertension,25,9375.34,Recovered,Care Clinic,5,Yes
+153,4,Female,COVID-19,1,5643.42,Recovered,General Hospital,12,Yes
+154,18,Female,Diabetes,20,12318.4,Recovered,Specialty Center,14,Yes
+155,89,Male,Kidney Disease,15,9744.79,Recovered,Care Clinic,8,Yes
+156,88,Female,Stroke,21,14827.02,Under Treatment,City Hospital,3,Yes
+157,70,Female,Cancer,28,16937.02,Under Treatment,Care Clinic,11,No
+158,51,Female,Hypertension,35,19193.64,Recovered,General Hospital,3,No
+159,3,Female,Asthma,13,12651.65,Recovered,Specialty Center,10,Yes
+160,19,Female,Heart Disease,20,11425.05,Recovered,Specialty Center,4,No
+161,47,Male,Cancer,20,10666.22,Recovered,City Hospital,12,No
+162,46,Male,Heart Disease,4,8152.31,Recovered,General Hospital,1,Yes
+163,58,Male,COVID-19,30,17103.42,Recovered,Care Clinic,10,Yes
+164,36,Male,Heart Disease,31,12592.93,Dead,Care Clinic,3,No
+165,19,Female,Diabetes,4,8821.16,Recovered,Specialty Center,7,No
+166,47,Male,Kidney Disease,38,19095.58,Recovered,City Hospital,13,Yes
+167,55,Male,Cancer,19,14617.66,Recovered,Specialty Center,14,Yes
+168,74,Female,Kidney Disease,13,11845.64,Recovered,General Hospital,1,Yes
+169,82,Male,Hypertension,16,8310.59,Recovered,Specialty Center,11,No
+170,63,Female,Diabetes,20,11428.64,Recovered,General Hospital,8,No
+171,68,Female,Hypertension,8,8795.07,Recovered,Specialty Center,10,Yes
+172,12,Female,COVID-19,11,5048.79,Recovered,General Hospital,4,Yes
+173,27,Male,Cancer,21,10031.56,Recovered,City Hospital,6,Yes
+174,76,Female,COVID-19,28,17566.95,Recovered,Specialty Center,14,No
+175,11,Female,Hypertension,16,9892.89,Recovered,Specialty Center,12,Yes
+176,4,Female,Diabetes,39,13046.78,Recovered,Care Clinic,4,Yes
+177,46,Female,Heart Disease,3,8976.18,Recovered,City Hospital,9,No
+178,59,Female,Diabetes,31,17714.27,Recovered,General Hospital,14,Yes
+179,60,Male,Kidney Disease,30,10108.9,Recovered,Care Clinic,6,Yes
+180,24,Male,Kidney Disease,8,8553.57,Recovered,City Hospital,12,Yes
+181,26,Male,Heart Disease,32,12809.03,Recovered,Care Clinic,8,Yes
+182,28,Male,Kidney Disease,12,7979.77,Recovered,City Hospital,11,No
+183,58,Male,Hypertension,11,7312.39,Recovered,Specialty Center,5,Yes
+184,4,Female,Cancer,34,16105.61,Dead,City Hospital,13,Yes
+185,79,Female,Kidney Disease,20,11775.31,Under Treatment,General Hospital,13,Yes
+186,86,Male,COVID-19,36,19475.53,Dead,Care Clinic,10,No
+187,60,Female,Kidney Disease,35,13134.28,Recovered,General Hospital,4,Yes
+188,49,Male,Kidney Disease,6,12268.21,Recovered,Care Clinic,8,Yes
+189,57,Male,Diabetes,4,8073.47,Recovered,Specialty Center,4,Yes
+190,88,Female,Diabetes,20,12272.1,Recovered,City Hospital,7,Yes
+191,88,Male,Stroke,31,12710.97,Under Treatment,General Hospital,6,Yes
+192,5,Female,Hypertension,2,8566.14,Recovered,City Hospital,1,Yes
+193,70,Male,Kidney Disease,6,11963.15,Under Treatment,General Hospital,14,Yes
+194,57,Female,Asthma,39,14538.84,Recovered,Specialty Center,4,Yes
+195,61,Male,Kidney Disease,27,16570.55,Recovered,General Hospital,12,No
+196,10,Male,Cancer,31,13030.36,Recovered,Specialty Center,1,Yes
+197,67,Female,Diabetes,38,15354.3,Recovered,Care Clinic,5,Yes
+198,34,Male,Kidney Disease,26,14157.68,Recovered,Care Clinic,14,Yes
+199,70,Female,Hypertension,7,8655.63,Recovered,Care Clinic,3,No
+200,10,Female,COVID-19,10,9244.56,Recovered,Care Clinic,5,No
+201,80,Female,Hypertension,12,9964.67,Recovered,Specialty Center,10,No
+202,29,Female,Hypertension,9,14317.81,Recovered,Care Clinic,10,Yes
+203,67,Male,Asthma,19,12145.79,Recovered,City Hospital,1,Yes
+204,11,Male,Diabetes,18,8776.14,Recovered,Specialty Center,5,No
+205,4,Male,Hypertension,16,7949.85,Recovered,Care Clinic,14,No
+206,49,Female,Asthma,5,7519.0,Dead,Care Clinic,9,Yes
+207,4,Female,Heart Disease,11,14492.14,Recovered,Care Clinic,4,Yes
+208,24,Female,Asthma,33,21678.18,Recovered,City Hospital,7,Yes
+209,56,Male,Kidney Disease,4,10377.92,Recovered,Specialty Center,13,Yes
+210,35,Female,Diabetes,17,8192.66,Recovered,General Hospital,11,Yes
+211,38,Female,Hypertension,21,9937.14,Recovered,Care Clinic,4,Yes
+212,50,Male,Cancer,27,10782.54,Recovered,Specialty Center,6,Yes
+213,88,Male,Kidney Disease,3,5469.9,Recovered,General Hospital,13,Yes
+214,86,Female,Diabetes,36,10013.84,Recovered,General Hospital,2,Yes
+215,26,Male,Heart Disease,19,13167.37,Recovered,Care Clinic,1,Yes
+216,18,Female,Cancer,29,12704.8,Recovered,City Hospital,3,No
+217,59,Male,Cancer,25,17907.72,Recovered,Care Clinic,14,Yes
+218,67,Female,Heart Disease,17,12280.48,Recovered,Care Clinic,9,Yes
+219,46,Male,Cancer,32,16816.49,Recovered,General Hospital,11,Yes
+220,11,Male,Heart Disease,29,9737.69,Recovered,General Hospital,5,Yes
+221,9,Male,Diabetes,23,11496.58,Recovered,General Hospital,1,Yes
+222,26,Female,Diabetes,13,7207.67,Dead,Specialty Center,10,No
+223,68,Female,Asthma,22,8392.59,Recovered,Specialty Center,9,No
+224,66,Male,Stroke,23,14201.24,Recovered,Care Clinic,8,Yes
+225,8,Other,Cancer,33,15410.37,Under Treatment,Care Clinic,3,Yes
+226,71,Female,Heart Disease,9,5380.68,Recovered,Specialty Center,1,No
+227,40,Male,Cancer,26,16775.52,Dead,Care Clinic,11,No
+228,83,Female,Cancer,19,13292.14,Recovered,Care Clinic,12,Yes
+229,39,Other,Cancer,28,12398.35,Recovered,City Hospital,8,Yes
+230,6,Female,Stroke,17,12641.06,Recovered,Care Clinic,4,Yes
+231,10,Male,Hypertension,16,11401.06,Recovered,General Hospital,3,No
+232,41,Female,Kidney Disease,8,7469.84,Under Treatment,Care Clinic,6,Yes
+233,69,Male,Stroke,4,6178.76,Recovered,City Hospital,9,Yes
+234,88,Female,Diabetes,39,18517.64,Dead,Specialty Center,1,No
+235,22,Male,Diabetes,7,9558.67,Recovered,Specialty Center,13,Yes
+236,51,Male,Stroke,14,6744.95,Recovered,City Hospital,10,Yes
+237,37,Male,Diabetes,13,12161.01,Dead,General Hospital,8,Yes
+238,45,Male,Stroke,30,11350.96,Under Treatment,City Hospital,13,Yes
+239,84,Male,Hypertension,24,11655.06,Recovered,Care Clinic,9,No
+240,82,Female,Hypertension,16,13107.07,Recovered,Specialty Center,13,Yes
+241,62,Male,Diabetes,34,15104.78,Recovered,Care Clinic,6,Yes
+242,15,Male,COVID-19,27,15987.01,Recovered,General Hospital,1,Yes
+243,79,Male,Cancer,31,19531.58,Recovered,Specialty Center,8,Yes
+244,24,Female,Stroke,8,7190.15,Recovered,Specialty Center,13,No
+245,63,Male,Asthma,9,10788.57,Dead,City Hospital,2,Yes
+246,29,Male,Stroke,17,13435.9,Recovered,Care Clinic,7,Yes
+247,81,Male,COVID-19,8,12126.07,Recovered,Specialty Center,9,Yes
+248,25,Female,Stroke,19,12086.15,Under Treatment,Care Clinic,5,Yes
+249,16,Male,Hypertension,28,11759.83,Recovered,Specialty Center,10,Yes
+250,50,Female,Cancer,8,5166.35,Under Treatment,General Hospital,10,No
+251,81,Male,Asthma,20,13844.88,Recovered,General Hospital,10,Yes
+252,85,Female,Cancer,22,15050.53,Recovered,City Hospital,9,Yes
+253,5,Male,Kidney Disease,16,13477.98,Recovered,City Hospital,3,Yes
+254,22,Female,Hypertension,30,16155.72,Recovered,Care Clinic,6,No
+255,33,Male,Hypertension,10,6898.36,Recovered,Specialty Center,13,No
+256,40,Female,Kidney Disease,19,14134.62,Recovered,General Hospital,2,Yes
+257,2,Other,COVID-19,26,8724.54,Recovered,City Hospital,6,Yes
+258,83,Male,Stroke,11,11696.12,Recovered,Specialty Center,6,Yes
+259,36,Female,Diabetes,27,11105.15,Recovered,City Hospital,6,Yes
+260,59,Male,COVID-19,14,7694.32,Recovered,Specialty Center,8,Yes
+261,39,Female,COVID-19,18,7953.41,Recovered,Care Clinic,6,No
+262,2,Female,Cancer,4,3350.71,Recovered,Care Clinic,10,Yes
+263,53,Female,Heart Disease,18,13784.56,Recovered,Care Clinic,8,Yes
+264,18,Male,Kidney Disease,17,7865.4,Recovered,Specialty Center,7,Yes
+265,46,Male,Hypertension,33,16046.91,Dead,City Hospital,3,Yes
+266,23,Female,Diabetes,36,19777.76,Recovered,Specialty Center,13,No
+267,54,Female,Cancer,7,5908.43,Recovered,Specialty Center,11,Yes
+268,75,Male,Kidney Disease,30,16106.15,Recovered,Care Clinic,7,Yes
+269,1,Other,Heart Disease,19,8930.3,Under Treatment,Specialty Center,6,No
+270,36,Male,Cancer,37,14866.09,Recovered,Care Clinic,4,No
+271,84,Male,Diabetes,25,10826.19,Recovered,City Hospital,12,No
+272,72,Male,Hypertension,33,13415.1,Under Treatment,Care Clinic,11,Yes
+273,40,Female,Asthma,8,10572.91,Recovered,Specialty Center,8,Yes
+274,88,Female,Heart Disease,23,13008.68,Recovered,Specialty Center,14,Yes
+275,84,Female,Cancer,16,7531.85,Recovered,General Hospital,12,Yes
+276,79,Male,Hypertension,7,5506.51,Recovered,City Hospital,3,Yes
+277,30,Female,Heart Disease,23,16144.79,Under Treatment,Specialty Center,3,Yes
+278,20,Male,Kidney Disease,14,6513.57,Recovered,General Hospital,1,Yes
+279,38,Male,Heart Disease,39,20450.21,Recovered,City Hospital,3,No
+280,2,Male,COVID-19,16,9026.87,Under Treatment,General Hospital,3,Yes
+281,6,Female,Cancer,15,10875.96,Recovered,Specialty Center,9,Yes
+282,82,Male,Kidney Disease,30,15054.44,Under Treatment,Care Clinic,4,No
+283,36,Male,Cancer,35,14546.51,Recovered,Specialty Center,2,Yes
+284,78,Female,Heart Disease,3,9163.85,Recovered,Specialty Center,2,Yes
+285,26,Female,Kidney Disease,39,16144.08,Recovered,Specialty Center,4,Yes
+286,71,Female,Cancer,22,10308.8,Recovered,Specialty Center,9,Yes
+287,59,Other,COVID-19,24,11013.65,Recovered,Care Clinic,5,No
+288,30,Other,Cancer,29,13434.45,Recovered,General Hospital,9,Yes
+289,82,Female,Asthma,38,20478.5,Recovered,Specialty Center,10,Yes
+290,22,Female,Hypertension,31,14793.71,Recovered,Specialty Center,6,Yes
+291,17,Male,Asthma,28,12469.07,Recovered,General Hospital,12,No
+292,31,Male,Heart Disease,16,7930.61,Recovered,General Hospital,5,Yes
+293,56,Other,Diabetes,2,7396.43,Recovered,General Hospital,8,Yes
+294,81,Male,Heart Disease,12,8647.29,Recovered,City Hospital,4,No
+295,31,Female,Asthma,25,7740.21,Recovered,Care Clinic,4,No
+296,13,Male,Cancer,28,15290.22,Recovered,General Hospital,5,No
+297,84,Male,Diabetes,30,16440.78,Recovered,Care Clinic,7,No
+298,17,Male,Asthma,39,18082.85,Recovered,Specialty Center,5,Yes
+299,39,Other,Hypertension,12,14581.11,Recovered,City Hospital,10,Yes
+300,8,Male,Hypertension,35,16779.55,Recovered,Care Clinic,11,Yes
+301,38,Male,Hypertension,5,7490.53,Recovered,General Hospital,9,Yes
+302,15,Male,Cancer,6,9893.31,Recovered,General Hospital,1,Yes
+303,1,Female,COVID-19,37,18336.67,Recovered,Care Clinic,10,Yes
+304,3,Other,Heart Disease,39,16538.04,Recovered,Care Clinic,4,No
+305,38,Male,Stroke,13,10934.36,Recovered,Care Clinic,8,Yes
+306,48,Female,Stroke,11,9482.69,Recovered,Care Clinic,14,Yes
+307,63,Female,COVID-19,17,14710.38,Recovered,General Hospital,8,No
+308,62,Male,Kidney Disease,35,18964.47,Recovered,City Hospital,4,Yes
+309,15,Female,Stroke,32,14449.34,Under Treatment,General Hospital,13,Yes
+310,62,Female,Hypertension,37,14313.29,Recovered,Specialty Center,3,Yes
+311,82,Female,Asthma,9,9031.48,Recovered,Specialty Center,13,No
+312,38,Female,COVID-19,28,9882.89,Recovered,City Hospital,8,Yes
+313,20,Female,Heart Disease,31,16704.21,Recovered,Specialty Center,9,Yes
+314,59,Male,Hypertension,27,15994.54,Recovered,Specialty Center,9,Yes
+315,7,Male,Asthma,12,7456.14,Recovered,Care Clinic,2,No
+316,72,Male,Hypertension,28,16145.17,Recovered,Specialty Center,5,Yes
+317,78,Male,Asthma,20,11467.76,Recovered,Care Clinic,12,No
+318,79,Male,Kidney Disease,21,16986.23,Recovered,General Hospital,6,No
+319,71,Male,COVID-19,37,22161.31,Recovered,General Hospital,4,Yes
+320,52,Female,COVID-19,20,11465.25,Recovered,Specialty Center,11,No
+321,4,Male,Stroke,17,7470.09,Recovered,Care Clinic,3,Yes
+322,1,Female,Hypertension,16,14216.81,Recovered,City Hospital,14,Yes
+323,78,Female,Cancer,27,18206.58,Recovered,General Hospital,1,No
+324,38,Female,Kidney Disease,13,12222.72,Recovered,Specialty Center,5,Yes
+325,53,Female,Kidney Disease,29,14353.11,Recovered,Specialty Center,12,No
+326,84,Male,Asthma,22,15327.41,Recovered,Specialty Center,11,Yes
+327,3,Female,Kidney Disease,37,13424.41,Under Treatment,Specialty Center,1,Yes
+328,15,Male,Stroke,4,10762.48,Recovered,Care Clinic,9,No
+329,3,Other,Asthma,33,13487.8,Under Treatment,General Hospital,5,No
+330,33,Male,COVID-19,25,12779.94,Recovered,General Hospital,3,No
+331,83,Female,COVID-19,15,14003.86,Under Treatment,General Hospital,9,Yes
+332,56,Male,Stroke,10,12673.04,Under Treatment,Specialty Center,7,No
+333,33,Female,Diabetes,24,12634.81,Recovered,Specialty Center,2,Yes
+334,31,Male,Asthma,16,9404.47,Recovered,Care Clinic,8,Yes
+335,4,Female,Heart Disease,37,16600.64,Recovered,Specialty Center,12,Yes
+336,80,Female,Diabetes,35,13533.75,Recovered,Specialty Center,2,Yes
+337,79,Male,Stroke,15,13781.82,Recovered,City Hospital,1,No
+338,22,Female,Heart Disease,11,8075.71,Recovered,Care Clinic,5,Yes
+339,31,Female,Cancer,21,9725.97,Recovered,Care Clinic,14,Yes
+340,60,Male,Hypertension,6,10691.8,Dead,City Hospital,14,Yes
+341,85,Male,Stroke,16,11895.14,Recovered,Care Clinic,5,Yes
+342,32,Male,COVID-19,39,15240.28,Recovered,General Hospital,5,Yes
+343,71,Male,Stroke,34,14154.27,Dead,Care Clinic,10,Yes
+344,8,Female,COVID-19,29,13709.9,Dead,Care Clinic,14,Yes
+345,78,Female,COVID-19,34,13241.11,Recovered,General Hospital,7,Yes
+346,62,Male,Hypertension,29,14690.09,Recovered,Specialty Center,14,Yes
+347,89,Female,Heart Disease,33,14746.57,Recovered,City Hospital,5,Yes
+348,28,Male,Hypertension,4,3899.46,Recovered,Specialty Center,7,No
+349,66,Female,Cancer,1,6209.45,Recovered,General Hospital,5,Yes
+350,17,Male,Stroke,24,16569.25,Dead,Specialty Center,9,Yes
+351,2,Female,Stroke,23,10427.07,Recovered,Specialty Center,11,No
+352,8,Female,Asthma,5,6771.28,Recovered,Specialty Center,11,Yes
+353,38,Male,Heart Disease,33,14247.31,Recovered,City Hospital,6,Yes
+354,20,Female,Stroke,22,12230.71,Dead,General Hospital,12,Yes
+355,64,Female,Asthma,22,9047.24,Recovered,General Hospital,6,Yes
+356,21,Male,COVID-19,36,14037.63,Recovered,Specialty Center,11,Yes
+357,31,Female,COVID-19,25,12770.07,Recovered,General Hospital,9,No
+358,84,Female,Stroke,15,12300.24,Dead,City Hospital,4,No
+359,70,Male,Stroke,4,9260.76,Recovered,Specialty Center,6,Yes
+360,15,Male,Cancer,25,13860.62,Recovered,General Hospital,12,No
+361,57,Female,COVID-19,14,11123.19,Recovered,City Hospital,5,Yes
+362,1,Female,Diabetes,18,9072.61,Recovered,Care Clinic,12,Yes
+363,29,Other,Hypertension,11,4953.79,Recovered,General Hospital,5,Yes
+364,66,Female,Asthma,31,11215.54,Recovered,Care Clinic,3,No
+365,22,Female,Stroke,5,9135.45,Recovered,City Hospital,9,Yes
+366,61,Female,Stroke,15,11935.19,Dead,Specialty Center,9,Yes
+367,29,Female,Kidney Disease,29,11802.63,Recovered,General Hospital,7,Yes
+368,9,Female,Diabetes,1,11432.09,Recovered,Specialty Center,10,No
+369,41,Male,Stroke,20,16097.22,Under Treatment,General Hospital,13,No
+370,21,Male,Hypertension,3,5589.99,Recovered,Care Clinic,2,Yes
+371,55,Female,Stroke,28,14230.5,Recovered,Specialty Center,11,Yes
+372,40,Other,Hypertension,39,19439.56,Dead,Specialty Center,1,Yes
+373,26,Female,Cancer,24,16728.17,Recovered,City Hospital,3,Yes
+374,48,Male,Hypertension,13,10817.45,Recovered,City Hospital,2,Yes
+375,77,Female,Asthma,32,13791.28,Recovered,Specialty Center,10,No
+376,3,Male,Kidney Disease,10,10960.74,Recovered,Care Clinic,3,No
+377,33,Female,Heart Disease,31,16026.53,Recovered,City Hospital,9,No
+378,42,Male,Kidney Disease,1,11558.58,Recovered,City Hospital,7,Yes
+379,77,Male,Diabetes,13,12174.02,Recovered,City Hospital,1,Yes
+380,43,Male,Hypertension,21,13498.31,Recovered,Specialty Center,3,Yes
+381,70,Male,Stroke,26,13409.34,Dead,Care Clinic,3,Yes
+382,4,Other,Heart Disease,16,12344.21,Recovered,Specialty Center,11,No
+383,64,Female,Hypertension,21,6854.34,Recovered,Care Clinic,8,No
+384,70,Male,Asthma,5,8914.39,Under Treatment,Care Clinic,8,Yes
+385,51,Male,Diabetes,27,15364.61,Recovered,Care Clinic,11,Yes
+386,67,Male,Cancer,5,4244.64,Recovered,Care Clinic,2,Yes
+387,84,Female,Cancer,39,14120.25,Recovered,Specialty Center,3,Yes
+388,18,Male,Asthma,7,4043.89,Recovered,Care Clinic,12,Yes
+389,20,Female,Diabetes,37,17587.47,Recovered,General Hospital,7,Yes
+390,30,Female,Kidney Disease,7,10800.86,Dead,General Hospital,11,Yes
+391,74,Female,Hypertension,36,12447.4,Recovered,Specialty Center,2,Yes
+392,52,Male,Hypertension,19,10990.07,Recovered,Care Clinic,11,Yes
+393,23,Male,COVID-19,24,10498.29,Dead,Care Clinic,12,No
+394,47,Male,Cancer,20,13378.12,Dead,City Hospital,7,Yes
+395,3,Male,Heart Disease,27,11329.76,Recovered,General Hospital,9,No
+396,50,Male,Asthma,6,6270.94,Under Treatment,General Hospital,8,No
+397,9,Female,Kidney Disease,8,10041.09,Under Treatment,Care Clinic,5,Yes
+398,19,Female,Kidney Disease,24,18815.24,Recovered,Specialty Center,8,Yes
+399,36,Male,Heart Disease,22,10462.88,Recovered,General Hospital,10,No
+400,40,Male,Diabetes,11,8055.95,Recovered,Care Clinic,11,Yes
+401,27,Male,Kidney Disease,22,11747.14,Recovered,Specialty Center,9,No
+402,72,Female,Kidney Disease,34,16964.26,Recovered,City Hospital,13,Yes
+403,72,Female,Stroke,35,16218.53,Recovered,Specialty Center,5,Yes
+404,82,Female,Heart Disease,33,13637.71,Recovered,Care Clinic,2,Yes
+405,21,Male,Hypertension,19,10605.48,Recovered,General Hospital,6,Yes
+406,13,Male,Stroke,23,11368.31,Recovered,Specialty Center,2,Yes
+407,27,Other,Kidney Disease,14,7751.13,Under Treatment,Specialty Center,7,Yes
+408,62,Male,Hypertension,2,9996.19,Recovered,Care Clinic,3,No
+409,40,Other,Asthma,8,8074.08,Recovered,Care Clinic,12,Yes
+410,53,Male,Cancer,35,17037.01,Recovered,City Hospital,1,No
+411,80,Female,Diabetes,29,12699.49,Recovered,City Hospital,10,Yes
+412,40,Female,Heart Disease,16,11266.98,Recovered,General Hospital,2,Yes
+413,9,Female,Stroke,24,15675.73,Recovered,Care Clinic,2,Yes
+414,27,Male,COVID-19,6,12203.94,Recovered,Care Clinic,12,Yes
+415,81,Male,Asthma,37,18666.11,Under Treatment,Specialty Center,2,Yes
+416,3,Other,Stroke,22,10238.34,Recovered,City Hospital,9,Yes
+417,56,Male,Diabetes,28,10340.96,Recovered,Care Clinic,9,No
+418,53,Male,Cancer,21,12182.35,Recovered,General Hospital,11,Yes
+419,4,Female,Cancer,29,15499.29,Recovered,Specialty Center,8,Yes
+420,40,Female,Hypertension,9,13534.0,Recovered,Specialty Center,9,Yes
+421,52,Male,Kidney Disease,31,14541.95,Recovered,Care Clinic,14,Yes
+422,56,Female,Asthma,36,17997.92,Recovered,Care Clinic,13,Yes
+423,65,Male,COVID-19,29,14961.66,Recovered,City Hospital,6,No
+424,78,Female,Cancer,9,6208.42,Recovered,General Hospital,7,Yes
+425,72,Male,Diabetes,20,13618.59,Recovered,City Hospital,4,Yes
+426,71,Female,COVID-19,5,7928.6,Recovered,Specialty Center,1,No
+427,30,Female,Cancer,23,14921.11,Recovered,Specialty Center,2,Yes
+428,25,Male,Hypertension,3,4328.04,Recovered,Care Clinic,13,Yes
+429,39,Female,Diabetes,38,18551.59,Recovered,General Hospital,5,Yes
+430,80,Male,Heart Disease,11,9449.0,Recovered,City Hospital,4,No
+431,75,Male,Cancer,13,8977.93,Recovered,Care Clinic,12,Yes
+432,25,Female,COVID-19,11,13688.38,Recovered,Care Clinic,4,No
+433,33,Male,Hypertension,7,10811.33,Recovered,Specialty Center,4,No
+434,63,Female,Heart Disease,34,17511.76,Under Treatment,Care Clinic,1,Yes
+435,54,Female,Stroke,24,12662.27,Under Treatment,Care Clinic,9,Yes
+436,51,Male,Stroke,23,9848.61,Recovered,City Hospital,11,No
+437,85,Female,Cancer,5,5037.96,Recovered,Care Clinic,10,Yes
+438,52,Female,COVID-19,7,7932.85,Recovered,Care Clinic,1,Yes
+439,52,Male,Cancer,34,12022.93,Recovered,General Hospital,6,Yes
+440,74,Other,Stroke,34,14317.88,Recovered,City Hospital,10,Yes
+441,56,Female,Stroke,9,9139.41,Recovered,Care Clinic,9,No
+442,73,Male,Cancer,12,9125.25,Recovered,General Hospital,13,Yes
+443,1,Female,Asthma,13,10744.28,Recovered,Specialty Center,11,No
+444,31,Male,Asthma,1,1517.63,Recovered,General Hospital,4,No
+445,21,Male,Kidney Disease,13,12230.3,Recovered,City Hospital,6,Yes
+446,24,Female,Stroke,4,7701.6,Recovered,City Hospital,1,Yes
+447,19,Male,Hypertension,37,17681.27,Recovered,Specialty Center,4,Yes
+448,61,Male,Kidney Disease,28,13076.67,Under Treatment,City Hospital,14,Yes
+449,60,Male,Asthma,4,7643.62,Recovered,City Hospital,12,No
+450,85,Female,Cancer,15,7971.28,Recovered,City Hospital,14,Yes
+451,25,Female,COVID-19,10,10101.34,Recovered,Care Clinic,9,No
+452,20,Male,COVID-19,20,10214.85,Recovered,General Hospital,7,Yes
+453,26,Male,Cancer,16,11632.11,Recovered,Specialty Center,8,No
+454,7,Female,Asthma,36,18152.69,Under Treatment,Specialty Center,7,No
+455,67,Male,COVID-19,25,13657.82,Recovered,Care Clinic,14,Yes
+456,56,Male,Cancer,23,17655.09,Recovered,Specialty Center,5,Yes
+457,72,Female,Stroke,24,14052.82,Recovered,Care Clinic,2,No
+458,11,Male,Stroke,38,16371.45,Recovered,General Hospital,6,Yes
+459,72,Male,Kidney Disease,11,10254.97,Recovered,City Hospital,1,No
+460,17,Male,Stroke,1,7684.95,Recovered,Care Clinic,4,No
+461,72,Female,Diabetes,1,8845.18,Under Treatment,City Hospital,1,Yes
+462,47,Male,Kidney Disease,7,7283.19,Recovered,City Hospital,8,Yes
+463,44,Male,Cancer,16,11871.42,Recovered,City Hospital,7,Yes
+464,64,Male,Hypertension,32,12685.74,Dead,City Hospital,11,No
+465,30,Male,Hypertension,16,11362.99,Recovered,City Hospital,14,Yes
+466,43,Male,Kidney Disease,19,13402.65,Recovered,General Hospital,3,Yes
+467,16,Female,Stroke,5,10451.05,Recovered,Specialty Center,6,Yes
+468,4,Female,Asthma,19,10830.2,Recovered,Specialty Center,9,No
+469,85,Male,Diabetes,36,19019.13,Recovered,Care Clinic,11,No
+470,50,Other,Heart Disease,12,9463.47,Recovered,Care Clinic,1,Yes
+471,34,Female,COVID-19,13,7259.08,Recovered,City Hospital,7,Yes
+472,35,Female,Kidney Disease,35,16047.16,Recovered,General Hospital,4,No
+473,64,Male,Cancer,29,16082.59,Recovered,General Hospital,12,Yes
+474,13,Male,Kidney Disease,5,6503.48,Recovered,Specialty Center,1,Yes
+475,27,Male,Heart Disease,14,7090.19,Recovered,General Hospital,12,Yes
+476,72,Other,Cancer,4,8002.92,Recovered,Care Clinic,3,Yes
+477,41,Male,Stroke,18,11241.98,Dead,Specialty Center,6,Yes
+478,42,Female,Kidney Disease,24,11032.41,Recovered,City Hospital,8,No
+479,29,Female,Kidney Disease,38,19834.05,Recovered,Specialty Center,14,Yes
+480,16,Female,Asthma,37,18293.43,Recovered,General Hospital,2,Yes
+481,53,Male,Heart Disease,5,10767.22,Recovered,General Hospital,8,No
+482,46,Female,Kidney Disease,8,5779.56,Recovered,Specialty Center,12,Yes
+483,69,Male,Diabetes,14,9791.6,Recovered,Care Clinic,11,Yes
+484,37,Male,Asthma,24,11791.99,Recovered,City Hospital,10,No
+485,60,Female,Stroke,25,12311.06,Recovered,General Hospital,11,Yes
+486,74,Male,Heart Disease,9,11804.94,Recovered,Care Clinic,11,Yes
+487,15,Male,Stroke,1,5831.24,Recovered,Specialty Center,8,No
+488,21,Male,Heart Disease,27,12145.77,Recovered,General Hospital,13,No
+489,34,Male,COVID-19,12,12580.11,Recovered,City Hospital,9,Yes
+490,86,Female,Heart Disease,39,21246.56,Recovered,General Hospital,12,Yes
+491,86,Male,Asthma,1,10509.28,Recovered,General Hospital,3,No
+492,9,Female,Kidney Disease,16,8744.61,Recovered,City Hospital,3,Yes
+493,26,Female,Hypertension,31,9657.31,Recovered,Specialty Center,10,No
+494,77,Male,Asthma,38,14568.2,Recovered,General Hospital,8,Yes
+495,18,Male,Cancer,12,9676.35,Recovered,General Hospital,5,Yes
+496,1,Female,Diabetes,33,16055.8,Recovered,General Hospital,5,Yes
+497,23,Female,Asthma,31,13486.89,Recovered,Specialty Center,10,No
+498,33,Female,Cancer,5,11114.86,Under Treatment,City Hospital,11,Yes
+499,47,Female,Kidney Disease,11,11190.8,Recovered,Specialty Center,11,Yes
+500,21,Male,Stroke,11,9780.57,Recovered,General Hospital,2,Yes
+501,87,Female,Heart Disease,9,5716.07,Recovered,Specialty Center,10,Yes
+502,80,Male,COVID-19,13,13147.71,Recovered,General Hospital,14,Yes
+503,61,Female,Heart Disease,20,11889.82,Under Treatment,Specialty Center,11,Yes
+504,27,Female,Diabetes,26,9062.54,Recovered,General Hospital,14,No
+505,63,Male,Kidney Disease,33,18318.58,Recovered,Care Clinic,7,Yes
+506,52,Female,Cancer,29,18987.82,Recovered,General Hospital,4,Yes
+507,64,Male,Kidney Disease,35,15189.93,Recovered,Specialty Center,9,Yes
+508,14,Male,COVID-19,19,9199.47,Recovered,City Hospital,5,No
+509,47,Male,Kidney Disease,5,11033.83,Dead,Specialty Center,14,Yes
+510,7,Female,Cancer,37,19828.07,Dead,Care Clinic,6,Yes
+511,76,Male,Diabetes,5,10021.66,Dead,Specialty Center,3,Yes
+512,28,Female,COVID-19,22,7329.16,Under Treatment,General Hospital,3,Yes
+513,3,Female,Hypertension,5,6646.95,Recovered,Care Clinic,3,Yes
+514,22,Male,Kidney Disease,5,5986.77,Recovered,Care Clinic,6,No
+515,85,Female,Stroke,16,12413.42,Recovered,General Hospital,4,Yes
+516,63,Male,Asthma,12,13680.31,Recovered,General Hospital,2,Yes
+517,29,Male,Kidney Disease,27,13778.3,Recovered,City Hospital,13,Yes
+518,20,Female,Stroke,32,14613.03,Recovered,General Hospital,13,No
+519,67,Male,Heart Disease,25,9552.14,Under Treatment,City Hospital,1,Yes
+520,85,Female,Asthma,34,12173.26,Recovered,Care Clinic,12,Yes
+521,33,Female,Diabetes,25,13260.9,Recovered,City Hospital,7,Yes
+522,48,Other,Asthma,7,12331.3,Recovered,Specialty Center,7,Yes
+523,41,Male,COVID-19,26,12268.47,Recovered,Specialty Center,8,Yes
+524,9,Female,Stroke,28,12547.34,Recovered,City Hospital,13,Yes
+525,48,Other,Diabetes,39,14021.16,Recovered,General Hospital,6,No
+526,87,Female,Stroke,4,4817.07,Recovered,Specialty Center,9,Yes
+527,54,Female,COVID-19,30,16887.72,Recovered,General Hospital,6,Yes
+528,23,Male,Diabetes,36,15367.42,Under Treatment,General Hospital,3,Yes
+529,65,Male,Kidney Disease,38,18553.03,Recovered,Care Clinic,6,No
+530,21,Female,Heart Disease,32,10397.04,Recovered,General Hospital,3,Yes
+531,32,Female,Diabetes,30,13603.24,Recovered,General Hospital,14,Yes
+532,26,Female,Asthma,10,13260.32,Recovered,City Hospital,12,No
+533,33,Male,Stroke,27,10844.99,Recovered,General Hospital,6,Yes
+534,60,Male,Diabetes,2,4937.83,Recovered,General Hospital,10,Yes
+535,9,Male,COVID-19,18,11182.97,Recovered,General Hospital,7,Yes
+536,81,Female,Asthma,36,15978.34,Recovered,General Hospital,3,Yes
+537,70,Female,Heart Disease,12,10720.5,Recovered,City Hospital,5,No
+538,46,Male,Hypertension,38,16202.74,Recovered,Specialty Center,3,No
+539,7,Male,Heart Disease,2,7644.27,Recovered,Care Clinic,8,No
+540,7,Male,Diabetes,7,8769.88,Recovered,Specialty Center,6,Yes
+541,69,Female,Hypertension,19,9453.99,Recovered,City Hospital,7,Yes
+542,33,Male,Hypertension,16,9886.9,Recovered,Care Clinic,4,Yes
+543,10,Male,Heart Disease,13,6896.24,Recovered,Specialty Center,5,Yes
+544,81,Female,Asthma,39,17217.69,Recovered,General Hospital,9,No
+545,28,Female,Kidney Disease,30,12284.83,Recovered,City Hospital,5,Yes
+546,47,Male,Cancer,14,11847.58,Recovered,City Hospital,13,Yes
+547,46,Female,COVID-19,23,14058.76,Recovered,General Hospital,11,Yes
+548,22,Female,Cancer,12,4738.48,Recovered,Care Clinic,11,Yes
+549,21,Female,Kidney Disease,22,14586.61,Recovered,Specialty Center,7,Yes
+550,56,Male,Kidney Disease,7,10449.31,Recovered,Care Clinic,3,No
+551,32,Male,Stroke,5,8519.25,Recovered,Care Clinic,14,Yes
+552,32,Male,COVID-19,2,2017.38,Under Treatment,Care Clinic,14,No
+553,36,Female,Kidney Disease,11,5062.11,Recovered,General Hospital,8,Yes
+554,31,Male,Cancer,24,14987.35,Recovered,City Hospital,1,No
+555,70,Female,Hypertension,29,12964.74,Recovered,City Hospital,7,Yes
+556,54,Other,Heart Disease,32,15728.51,Recovered,Specialty Center,14,No
+557,21,Female,COVID-19,20,4930.09,Recovered,Specialty Center,13,Yes
+558,35,Female,COVID-19,35,16945.03,Recovered,General Hospital,6,Yes
+559,78,Female,COVID-19,4,6158.66,Recovered,Care Clinic,8,Yes
+560,23,Female,COVID-19,29,12332.09,Recovered,Specialty Center,11,Yes
+561,42,Male,Heart Disease,28,16438.17,Dead,Specialty Center,7,No
+562,24,Male,Hypertension,19,10843.07,Recovered,Specialty Center,11,No
+563,74,Male,Stroke,37,17135.9,Recovered,Specialty Center,6,Yes
+564,69,Female,COVID-19,29,12112.17,Recovered,Specialty Center,4,Yes
+565,42,Male,Hypertension,39,21614.71,Dead,Specialty Center,8,Yes
+566,30,Female,Diabetes,30,12471.61,Recovered,Care Clinic,5,Yes
+567,71,Female,Kidney Disease,6,10473.65,Recovered,City Hospital,7,No
+568,6,Female,Asthma,22,11179.11,Recovered,Care Clinic,10,Yes
+569,72,Female,Asthma,22,12870.56,Recovered,General Hospital,3,Yes
+570,52,Female,Asthma,20,11497.72,Recovered,City Hospital,8,Yes
+571,82,Male,COVID-19,16,10350.68,Recovered,Care Clinic,7,No
+572,26,Male,Heart Disease,37,15470.17,Recovered,Specialty Center,13,Yes
+573,41,Female,Cancer,19,9480.44,Recovered,Care Clinic,3,No
+574,68,Male,COVID-19,20,12969.78,Dead,Care Clinic,1,Yes
+575,54,Female,Cancer,39,17307.14,Recovered,General Hospital,4,Yes
+576,60,Male,Cancer,11,9589.05,Under Treatment,Specialty Center,9,Yes
+577,77,Male,Heart Disease,32,18292.78,Recovered,General Hospital,2,No
+578,55,Female,Cancer,37,18323.05,Under Treatment,City Hospital,7,Yes
+579,24,Female,Cancer,10,7741.46,Recovered,General Hospital,8,No
+580,86,Female,Stroke,4,8309.85,Recovered,City Hospital,8,No
+581,40,Male,Kidney Disease,29,16877.81,Recovered,Specialty Center,1,Yes
+582,82,Male,Stroke,6,8180.97,Under Treatment,Care Clinic,7,Yes
+583,64,Female,Kidney Disease,2,7538.8,Recovered,Care Clinic,11,Yes
+584,34,Male,Cancer,4,6994.54,Recovered,General Hospital,8,Yes
+585,87,Male,Stroke,26,12306.47,Recovered,General Hospital,2,No
+586,39,Female,Cancer,23,14921.16,Dead,Care Clinic,7,Yes
+587,1,Male,COVID-19,15,11299.2,Recovered,General Hospital,11,Yes
+588,20,Male,Diabetes,17,12830.74,Recovered,General Hospital,6,No
+589,25,Male,COVID-19,36,16402.06,Recovered,Specialty Center,5,No
+590,6,Male,Stroke,1,6088.14,Recovered,Specialty Center,2,No
+591,84,Male,Stroke,18,8856.31,Recovered,City Hospital,6,Yes
+592,73,Male,Kidney Disease,20,11139.14,Recovered,Care Clinic,13,Yes
+593,82,Female,Diabetes,35,17143.3,Recovered,Care Clinic,13,Yes
+594,3,Other,Kidney Disease,23,13846.86,Under Treatment,General Hospital,8,Yes
+595,36,Male,Stroke,39,12745.09,Recovered,General Hospital,1,Yes
+596,70,Female,Stroke,11,14260.69,Recovered,General Hospital,4,Yes
+597,38,Male,Heart Disease,12,8401.49,Recovered,Care Clinic,3,Yes
+598,65,Female,Stroke,16,10773.81,Recovered,City Hospital,5,Yes
+599,83,Male,Heart Disease,11,10279.56,Recovered,General Hospital,3,Yes
+600,38,Female,Asthma,1,11418.77,Under Treatment,General Hospital,6,Yes
+601,28,Female,Diabetes,19,9655.6,Recovered,Specialty Center,13,Yes
+602,47,Male,Stroke,16,8967.63,Recovered,Specialty Center,9,Yes
+603,73,Male,Cancer,1,4782.98,Dead,General Hospital,11,Yes
+604,47,Male,Heart Disease,17,11809.56,Recovered,City Hospital,7,Yes
+605,10,Male,Heart Disease,9,10650.62,Recovered,Specialty Center,1,Yes
+606,88,Male,Heart Disease,23,13181.58,Recovered,Care Clinic,1,Yes
+607,72,Female,Kidney Disease,15,15369.73,Recovered,General Hospital,5,No
+608,5,Female,Heart Disease,7,7903.22,Recovered,Specialty Center,12,Yes
+609,13,Female,Stroke,18,12030.62,Under Treatment,General Hospital,12,Yes
+610,86,Female,Diabetes,3,3300.24,Recovered,Care Clinic,5,Yes
+611,34,Male,Stroke,22,6564.94,Recovered,Care Clinic,5,Yes
+612,25,Male,COVID-19,6,9802.47,Recovered,General Hospital,3,Yes
+613,23,Male,Cancer,28,15308.99,Recovered,City Hospital,14,No
+614,85,Other,Heart Disease,2,4609.15,Recovered,Specialty Center,1,Yes
+615,3,Female,Diabetes,2,7338.81,Under Treatment,General Hospital,1,No
+616,8,Female,Kidney Disease,37,17758.59,Recovered,Specialty Center,9,Yes
+617,46,Female,Asthma,25,12475.13,Recovered,Care Clinic,7,Yes
+618,62,Male,Asthma,10,7450.72,Recovered,General Hospital,10,No
+619,39,Other,Cancer,10,9317.1,Recovered,General Hospital,4,Yes
+620,51,Male,Hypertension,37,21234.57,Recovered,City Hospital,11,Yes
+621,22,Male,Heart Disease,36,18022.96,Recovered,Care Clinic,1,Yes
+622,45,Male,Asthma,32,13901.71,Under Treatment,Specialty Center,6,No
+623,75,Female,Diabetes,17,13487.61,Recovered,Care Clinic,6,Yes
+624,23,Male,Diabetes,29,14926.08,Recovered,City Hospital,13,Yes
+625,49,Female,Diabetes,32,15191.51,Recovered,Care Clinic,1,Yes
+626,80,Female,Diabetes,22,13342.67,Recovered,Specialty Center,13,No
+627,51,Female,Kidney Disease,38,17354.64,Recovered,General Hospital,3,Yes
+628,28,Female,Hypertension,35,12465.07,Dead,City Hospital,1,Yes
+629,29,Female,Kidney Disease,36,16649.27,Recovered,General Hospital,12,No
+630,59,Male,COVID-19,13,9377.81,Under Treatment,Specialty Center,3,Yes
+631,70,Female,Cancer,21,12129.92,Recovered,Care Clinic,1,Yes
+632,78,Female,Stroke,25,10923.7,Recovered,General Hospital,10,Yes
+633,28,Male,Kidney Disease,14,11474.18,Under Treatment,Care Clinic,14,Yes
+634,74,Female,Kidney Disease,29,14751.58,Recovered,General Hospital,1,Yes
+635,47,Male,Hypertension,24,12928.0,Recovered,Care Clinic,13,Yes
+636,4,Other,Kidney Disease,27,14416.52,Recovered,Care Clinic,9,Yes
+637,88,Female,COVID-19,38,17388.08,Dead,City Hospital,8,No
+638,2,Female,Heart Disease,20,14306.6,Dead,General Hospital,1,Yes
+639,64,Male,Stroke,20,8393.92,Recovered,Care Clinic,11,Yes
+640,29,Male,Heart Disease,13,14442.71,Recovered,General Hospital,1,No
+641,89,Male,Asthma,37,16417.33,Recovered,General Hospital,8,Yes
+642,47,Male,Diabetes,35,14796.11,Recovered,City Hospital,4,No
+643,15,Male,Stroke,34,17733.65,Recovered,City Hospital,2,Yes
+644,38,Female,Kidney Disease,20,11851.23,Recovered,Specialty Center,5,Yes
+645,49,Female,Diabetes,21,16403.33,Recovered,Specialty Center,4,No
+646,72,Female,Hypertension,3,8267.15,Recovered,Specialty Center,3,Yes
+647,40,Male,Stroke,28,16447.08,Recovered,City Hospital,4,Yes
+648,16,Female,Cancer,2,7597.04,Dead,Care Clinic,4,Yes
+649,34,Female,Hypertension,33,14416.89,Recovered,General Hospital,11,Yes
+650,6,Female,Asthma,6,10241.58,Recovered,City Hospital,14,No
+651,87,Male,Stroke,21,16002.9,Recovered,Specialty Center,3,Yes
+652,53,Male,Diabetes,20,15043.97,Under Treatment,General Hospital,1,Yes
+653,21,Male,Asthma,13,11892.06,Recovered,General Hospital,11,Yes
+654,29,Female,Stroke,33,17373.35,Recovered,General Hospital,3,No
+655,2,Female,Hypertension,2,10072.45,Recovered,City Hospital,13,Yes
+656,26,Male,Diabetes,26,16086.0,Recovered,City Hospital,10,Yes
+657,44,Male,Heart Disease,23,15569.49,Recovered,City Hospital,4,Yes
+658,18,Female,Cancer,36,11089.31,Recovered,City Hospital,14,No
+659,30,Female,Cancer,3,6050.13,Under Treatment,Care Clinic,11,Yes
+660,23,Female,Kidney Disease,25,15218.34,Recovered,Care Clinic,6,Yes
+661,48,Male,Stroke,12,11832.0,Recovered,Care Clinic,2,Yes
+662,55,Male,Kidney Disease,5,3262.3,Recovered,City Hospital,11,Yes
+663,84,Male,Kidney Disease,15,10113.57,Recovered,General Hospital,8,Yes
+664,23,Male,Heart Disease,35,11767.81,Under Treatment,General Hospital,7,Yes
+665,40,Male,COVID-19,32,11808.91,Recovered,General Hospital,1,Yes
+666,64,Female,Hypertension,25,13386.27,Recovered,Care Clinic,10,No
+667,72,Female,Stroke,28,12412.4,Recovered,General Hospital,12,Yes
+668,14,Other,Hypertension,3,6524.56,Under Treatment,Specialty Center,3,No
+669,87,Female,Heart Disease,38,15415.26,Recovered,Specialty Center,3,Yes
+670,78,Male,Diabetes,37,16860.03,Under Treatment,Specialty Center,4,Yes
+671,2,Female,Kidney Disease,7,10804.27,Dead,Specialty Center,11,Yes
+672,4,Male,COVID-19,18,9126.98,Recovered,Care Clinic,3,No
+673,88,Female,Kidney Disease,15,10315.04,Recovered,Care Clinic,8,Yes
+674,9,Male,Cancer,27,14482.9,Recovered,Care Clinic,8,Yes
+675,16,Male,Asthma,32,14250.7,Recovered,Specialty Center,10,Yes
+676,32,Male,Hypertension,29,16088.44,Recovered,General Hospital,8,Yes
+677,27,Male,Cancer,14,10602.39,Recovered,General Hospital,8,No
+678,15,Male,Heart Disease,3,10744.63,Recovered,City Hospital,9,Yes
+679,68,Male,COVID-19,18,8832.2,Recovered,Specialty Center,14,Yes
+680,25,Female,COVID-19,7,14981.26,Under Treatment,City Hospital,5,Yes
+681,15,Male,Hypertension,2,5988.0,Recovered,General Hospital,7,Yes
+682,12,Female,Kidney Disease,33,18754.09,Recovered,City Hospital,5,Yes
+683,71,Female,Diabetes,8,11852.57,Recovered,General Hospital,1,Yes
+684,24,Other,Heart Disease,8,13218.94,Recovered,Care Clinic,4,No
+685,70,Male,COVID-19,1,9239.83,Recovered,Specialty Center,14,Yes
+686,41,Male,Hypertension,28,12249.24,Recovered,Care Clinic,7,No
+687,60,Female,Diabetes,4,1000.0,Recovered,Care Clinic,1,No
+688,31,Female,Hypertension,29,12391.82,Recovered,Specialty Center,10,No
+689,21,Male,Stroke,6,11198.63,Recovered,City Hospital,3,No
+690,60,Male,Diabetes,8,9589.56,Recovered,Specialty Center,10,No
+691,75,Female,COVID-19,16,8435.96,Recovered,City Hospital,9,Yes
+692,80,Male,Heart Disease,5,5209.28,Dead,General Hospital,1,No
+693,78,Female,Hypertension,34,12586.47,Recovered,General Hospital,10,Yes
+694,89,Male,COVID-19,7,7556.08,Dead,City Hospital,13,Yes
+695,14,Male,Asthma,18,11120.73,Recovered,General Hospital,12,Yes
+696,82,Male,Cancer,11,13576.32,Under Treatment,City Hospital,2,Yes
+697,14,Other,Heart Disease,1,7964.57,Recovered,Specialty Center,8,Yes
+698,24,Female,Kidney Disease,12,8524.21,Under Treatment,General Hospital,12,Yes
+699,72,Male,Asthma,7,9695.53,Recovered,City Hospital,11,Yes
+700,25,Female,Diabetes,6,6509.54,Recovered,General Hospital,5,No
+701,28,Female,Diabetes,21,16002.83,Recovered,City Hospital,6,No
+702,88,Male,Stroke,38,12737.42,Recovered,Specialty Center,11,Yes
+703,18,Female,Cancer,19,13221.67,Under Treatment,General Hospital,10,Yes
+704,57,Female,Diabetes,31,11375.31,Recovered,Care Clinic,8,No
+705,42,Other,Hypertension,26,12445.85,Recovered,General Hospital,6,Yes
+706,67,Female,Kidney Disease,32,16610.75,Recovered,Care Clinic,2,Yes
+707,12,Female,Kidney Disease,34,16612.35,Dead,City Hospital,5,Yes
+708,36,Female,Hypertension,10,8969.38,Recovered,Specialty Center,7,No
+709,69,Female,Kidney Disease,17,11494.7,Recovered,Care Clinic,3,Yes
+710,83,Female,Asthma,16,7123.12,Recovered,Care Clinic,13,Yes
+711,76,Male,Diabetes,34,11734.11,Recovered,City Hospital,4,Yes
+712,17,Female,Hypertension,38,17863.71,Dead,Care Clinic,5,No
+713,43,Other,Hypertension,1,11702.61,Recovered,Specialty Center,14,Yes
+714,40,Female,Hypertension,6,10580.57,Recovered,City Hospital,14,No
+715,22,Male,Hypertension,4,8632.4,Recovered,Specialty Center,13,No
+716,64,Female,Stroke,7,11247.21,Recovered,General Hospital,10,No
+717,10,Female,Diabetes,6,8856.95,Recovered,Care Clinic,3,Yes
+718,6,Female,Kidney Disease,2,9762.0,Dead,City Hospital,2,No
+719,17,Male,Stroke,30,15498.61,Recovered,General Hospital,9,Yes
+720,76,Female,Hypertension,9,9552.82,Dead,Specialty Center,2,No
+721,63,Female,Heart Disease,7,4807.11,Recovered,City Hospital,7,Yes
+722,70,Male,Diabetes,35,16673.06,Recovered,Care Clinic,4,Yes
+723,86,Female,Diabetes,1,8149.23,Recovered,Care Clinic,6,Yes
+724,50,Female,Kidney Disease,30,16422.45,Recovered,City Hospital,5,Yes
+725,80,Male,Kidney Disease,30,14186.94,Recovered,General Hospital,7,Yes
+726,68,Female,COVID-19,8,9820.74,Recovered,General Hospital,11,Yes
+727,25,Female,Hypertension,38,15232.69,Recovered,Care Clinic,11,Yes
+728,33,Female,Kidney Disease,12,13927.24,Recovered,City Hospital,11,No
+729,1,Female,COVID-19,2,6226.61,Recovered,Care Clinic,9,No
+730,79,Female,Asthma,2,6077.6,Dead,City Hospital,10,Yes
+731,17,Female,Kidney Disease,5,8369.94,Recovered,Specialty Center,8,Yes
+732,43,Other,Kidney Disease,37,12068.09,Recovered,Specialty Center,12,Yes
+733,58,Female,COVID-19,38,14307.3,Recovered,Specialty Center,12,Yes
+734,19,Female,Hypertension,18,7472.19,Recovered,General Hospital,12,Yes
+735,54,Male,Hypertension,2,11636.12,Recovered,Care Clinic,1,No
+736,83,Male,Diabetes,39,17774.03,Recovered,General Hospital,6,No
+737,84,Female,Asthma,6,7156.48,Under Treatment,City Hospital,14,No
+738,1,Female,Diabetes,2,5060.04,Recovered,General Hospital,9,Yes
+739,87,Male,Asthma,6,13695.36,Recovered,City Hospital,14,Yes
+740,16,Male,Asthma,7,4701.92,Recovered,Specialty Center,5,No
+741,24,Other,Hypertension,21,12287.51,Recovered,General Hospital,9,Yes
+742,84,Female,COVID-19,10,12810.02,Recovered,Care Clinic,4,Yes
+743,79,Female,Stroke,26,11932.98,Recovered,Care Clinic,10,Yes
+744,64,Male,Cancer,22,10018.2,Under Treatment,General Hospital,2,Yes
+745,58,Male,Cancer,33,11957.78,Recovered,Care Clinic,7,No
+746,24,Male,Stroke,12,12086.46,Recovered,General Hospital,14,Yes
+747,58,Male,Asthma,12,8221.27,Dead,Specialty Center,9,Yes
+748,64,Other,Hypertension,36,13605.28,Recovered,City Hospital,6,Yes
+749,41,Male,Stroke,9,4880.36,Dead,Care Clinic,4,No
+750,33,Female,Asthma,13,8604.14,Recovered,Care Clinic,2,Yes
+751,58,Female,Diabetes,10,11485.83,Recovered,General Hospital,1,Yes
+752,56,Female,Cancer,16,12544.52,Recovered,Care Clinic,2,Yes
+753,15,Male,COVID-19,36,15872.12,Recovered,Care Clinic,5,Yes
+754,65,Female,Cancer,23,11303.57,Dead,City Hospital,10,Yes
+755,12,Female,Hypertension,13,8452.75,Under Treatment,City Hospital,7,No
+756,35,Male,Hypertension,10,5778.35,Recovered,General Hospital,14,No
+757,37,Male,Diabetes,20,12904.98,Recovered,Care Clinic,4,Yes
+758,30,Female,Diabetes,21,12520.3,Recovered,Care Clinic,9,Yes
+759,11,Female,Heart Disease,39,16513.86,Recovered,Care Clinic,5,No
+760,60,Male,Hypertension,30,15250.78,Dead,Care Clinic,14,Yes
+761,32,Male,Kidney Disease,33,17192.85,Recovered,Care Clinic,14,Yes
+762,2,Male,Stroke,12,11474.65,Recovered,Care Clinic,4,Yes
+763,10,Other,Diabetes,24,8033.22,Recovered,Care Clinic,10,Yes
+764,46,Male,Asthma,34,14650.35,Recovered,General Hospital,13,No
+765,22,Female,Kidney Disease,14,11253.06,Recovered,City Hospital,9,Yes
+766,73,Female,Kidney Disease,20,11837.63,Recovered,General Hospital,5,Yes
+767,55,Female,Hypertension,13,8733.99,Recovered,Care Clinic,11,No
+768,59,Female,COVID-19,32,14428.35,Recovered,City Hospital,12,Yes
+769,30,Male,Hypertension,20,16440.28,Recovered,City Hospital,7,No
+770,53,Female,Diabetes,22,15825.62,Dead,Specialty Center,14,Yes
+771,89,Male,Diabetes,16,11200.95,Recovered,Care Clinic,9,Yes
+772,21,Female,Heart Disease,35,14764.74,Under Treatment,Care Clinic,8,Yes
+773,82,Male,COVID-19,20,13296.77,Recovered,General Hospital,4,Yes
+774,20,Female,Hypertension,33,17593.02,Recovered,Specialty Center,2,Yes
+775,80,Male,Stroke,8,9882.45,Recovered,Care Clinic,5,Yes
+776,39,Male,Asthma,3,5089.6,Recovered,City Hospital,14,Yes
+777,35,Male,Kidney Disease,4,8132.43,Recovered,Care Clinic,9,No
+778,29,Female,COVID-19,24,13401.96,Recovered,Care Clinic,2,Yes
+779,56,Female,Hypertension,20,9262.5,Recovered,Care Clinic,8,Yes
+780,55,Other,Stroke,19,12127.89,Recovered,City Hospital,8,Yes
+781,53,Female,Hypertension,1,8797.85,Recovered,Specialty Center,12,No
+782,48,Male,Asthma,31,16146.52,Recovered,General Hospital,10,Yes
+783,67,Male,Hypertension,2,10845.4,Recovered,City Hospital,12,No
+784,55,Male,COVID-19,35,12399.96,Recovered,Care Clinic,12,Yes
+785,32,Female,Heart Disease,16,11625.94,Recovered,City Hospital,8,Yes
+786,58,Male,Stroke,6,7260.96,Recovered,Specialty Center,9,Yes
+787,78,Female,COVID-19,12,12156.73,Dead,Specialty Center,3,Yes
+788,69,Female,Asthma,20,14551.16,Under Treatment,Care Clinic,11,No
+789,28,Male,Hypertension,38,13157.29,Recovered,General Hospital,7,Yes
+790,72,Male,Diabetes,24,12104.09,Recovered,Specialty Center,3,Yes
+791,60,Female,Heart Disease,2,5065.45,Under Treatment,City Hospital,2,No
+792,13,Female,Diabetes,17,11008.12,Recovered,City Hospital,7,No
+793,84,Male,Heart Disease,21,12115.15,Under Treatment,General Hospital,3,Yes
+794,18,Male,Asthma,38,19765.2,Under Treatment,Specialty Center,6,No
+795,51,Female,Asthma,29,15486.58,Recovered,Care Clinic,5,Yes
+796,50,Male,Asthma,37,18885.38,Recovered,Care Clinic,9,Yes
+797,84,Female,Stroke,21,14648.19,Recovered,General Hospital,12,Yes
+798,43,Female,Asthma,2,4863.29,Recovered,Care Clinic,7,Yes
+799,85,Female,Cancer,7,8878.49,Recovered,City Hospital,12,No
+800,46,Other,Stroke,4,10378.48,Recovered,Specialty Center,13,Yes
+801,24,Male,Asthma,16,14470.26,Under Treatment,Care Clinic,13,Yes
+802,5,Male,COVID-19,33,17129.58,Recovered,General Hospital,4,Yes
+803,30,Other,Asthma,18,7214.17,Recovered,General Hospital,8,Yes
+804,43,Male,Diabetes,15,11863.13,Recovered,General Hospital,2,Yes
+805,53,Female,Asthma,19,11588.87,Recovered,Care Clinic,11,No
+806,24,Male,Asthma,28,15764.46,Recovered,Specialty Center,14,No
+807,14,Male,Heart Disease,15,8994.34,Recovered,General Hospital,9,Yes
+808,36,Female,Diabetes,34,15722.86,Under Treatment,General Hospital,3,No
+809,26,Male,COVID-19,11,8961.86,Recovered,City Hospital,5,No
+810,13,Male,Cancer,25,16441.98,Recovered,City Hospital,11,Yes
+811,21,Female,Cancer,17,12789.26,Recovered,Specialty Center,8,Yes
+812,40,Female,Diabetes,20,11378.48,Dead,City Hospital,3,Yes
+813,78,Male,Diabetes,7,7195.05,Recovered,Care Clinic,11,Yes
+814,85,Female,Hypertension,13,9189.86,Recovered,Specialty Center,12,Yes
+815,43,Female,Stroke,33,19443.27,Under Treatment,Care Clinic,1,No
+816,59,Male,Diabetes,21,11759.39,Recovered,Specialty Center,9,Yes
+817,49,Male,Heart Disease,26,18566.94,Recovered,Care Clinic,11,Yes
+818,47,Other,Kidney Disease,8,9453.51,Under Treatment,City Hospital,8,Yes
+819,19,Female,Cancer,6,5619.27,Dead,Specialty Center,11,No
+820,12,Male,Heart Disease,19,14577.64,Recovered,General Hospital,9,No
+821,36,Male,COVID-19,14,5370.62,Dead,City Hospital,2,Yes
+822,33,Male,Asthma,36,16262.93,Recovered,Care Clinic,11,Yes
+823,87,Male,Diabetes,21,18082.89,Recovered,General Hospital,3,No
+824,62,Male,Diabetes,7,12971.47,Recovered,City Hospital,2,Yes
+825,41,Other,COVID-19,32,18564.98,Recovered,Care Clinic,7,Yes
+826,77,Other,Hypertension,6,10901.75,Recovered,Care Clinic,8,Yes
+827,19,Female,COVID-19,14,13520.27,Recovered,General Hospital,3,Yes
+828,31,Male,COVID-19,22,10425.04,Recovered,City Hospital,8,No
+829,50,Male,Diabetes,4,10014.92,Recovered,City Hospital,14,Yes
+830,42,Female,Stroke,4,8957.51,Recovered,City Hospital,1,No
+831,17,Female,Kidney Disease,37,19677.29,Recovered,Specialty Center,12,Yes
+832,68,Male,Heart Disease,9,13409.56,Recovered,General Hospital,14,No
+833,6,Female,Stroke,3,6622.45,Recovered,General Hospital,6,Yes
+834,60,Female,Asthma,19,8125.52,Recovered,General Hospital,6,Yes
+835,19,Male,Heart Disease,13,10359.25,Recovered,General Hospital,2,Yes
+836,58,Male,Heart Disease,35,19517.95,Recovered,City Hospital,12,Yes
+837,87,Female,Hypertension,29,10676.39,Recovered,Specialty Center,13,Yes
+838,40,Male,Hypertension,38,15944.64,Recovered,Specialty Center,6,Yes
+839,45,Male,Heart Disease,2,2618.65,Recovered,City Hospital,9,Yes
+840,42,Female,Hypertension,19,10083.64,Recovered,Care Clinic,8,Yes
+841,70,Male,Asthma,23,13677.21,Recovered,General Hospital,4,No
+842,24,Female,Asthma,7,8657.52,Recovered,Care Clinic,14,Yes
+843,22,Male,Cancer,16,8898.19,Recovered,Specialty Center,7,No
+844,53,Female,Stroke,19,15473.33,Recovered,City Hospital,14,Yes
+845,85,Male,Heart Disease,37,15207.4,Recovered,Care Clinic,2,Yes
+846,78,Female,Hypertension,17,6485.5,Recovered,General Hospital,14,Yes
+847,24,Male,COVID-19,12,14866.32,Recovered,City Hospital,10,Yes
+848,25,Female,Cancer,10,12171.48,Recovered,General Hospital,11,No
+849,17,Male,Asthma,36,16781.37,Recovered,Specialty Center,12,No
+850,35,Male,Cancer,9,6838.31,Recovered,Care Clinic,10,Yes
+851,81,Female,COVID-19,25,10599.32,Dead,City Hospital,2,Yes
+852,56,Male,Stroke,13,10563.72,Recovered,General Hospital,4,Yes
+853,28,Other,Kidney Disease,10,9877.9,Recovered,Specialty Center,3,Yes
+854,66,Female,Cancer,19,8158.92,Recovered,General Hospital,1,Yes
+855,34,Male,Kidney Disease,27,11255.44,Recovered,Care Clinic,5,Yes
+856,65,Male,Hypertension,19,12962.12,Recovered,City Hospital,8,Yes
+857,3,Male,Hypertension,3,4599.01,Recovered,City Hospital,5,No
+858,59,Male,COVID-19,26,16257.8,Recovered,Care Clinic,7,Yes
+859,56,Female,Stroke,20,11034.7,Under Treatment,Specialty Center,3,Yes
+860,22,Male,Stroke,32,17852.12,Recovered,Specialty Center,4,Yes
+861,42,Male,Stroke,29,12821.56,Recovered,Specialty Center,4,No
+862,4,Male,Asthma,36,17688.96,Dead,General Hospital,10,No
+863,79,Male,COVID-19,1,7862.31,Recovered,Specialty Center,14,No
+864,12,Female,Stroke,20,16229.11,Recovered,Care Clinic,6,Yes
+865,37,Male,Stroke,29,12622.79,Recovered,General Hospital,6,Yes
+866,41,Female,Diabetes,10,14698.93,Recovered,Specialty Center,10,Yes
+867,58,Female,Cancer,33,18863.24,Recovered,Specialty Center,8,No
+868,63,Female,Asthma,12,8329.87,Recovered,City Hospital,9,No
+869,71,Male,Asthma,22,11047.0,Recovered,Care Clinic,4,No
+870,5,Male,Stroke,15,11655.03,Recovered,Specialty Center,14,Yes
+871,89,Female,Asthma,32,16907.86,Recovered,Care Clinic,5,No
+872,17,Male,Stroke,14,8073.23,Recovered,City Hospital,9,Yes
+873,28,Female,COVID-19,31,11689.06,Recovered,Specialty Center,2,Yes
+874,27,Female,COVID-19,26,9162.25,Recovered,General Hospital,6,Yes
+875,53,Female,Cancer,34,19323.34,Recovered,Specialty Center,13,Yes
+876,26,Male,Asthma,31,14699.47,Dead,Care Clinic,4,No
+877,49,Male,Heart Disease,10,5086.31,Recovered,General Hospital,7,Yes
+878,60,Male,Hypertension,8,8300.76,Recovered,General Hospital,1,Yes
+879,27,Female,Hypertension,15,12795.38,Dead,Specialty Center,7,No
+880,81,Female,Hypertension,24,14006.77,Recovered,Care Clinic,5,Yes
+881,38,Male,Stroke,1,11983.66,Recovered,City Hospital,13,Yes
+882,80,Female,Heart Disease,27,14256.94,Recovered,Specialty Center,11,Yes
+883,9,Female,Cancer,37,15504.44,Recovered,Specialty Center,9,No
+884,32,Female,Stroke,3,8479.48,Recovered,General Hospital,3,Yes
+885,1,Female,Hypertension,19,15563.0,Recovered,General Hospital,5,Yes
+886,9,Female,Cancer,29,15897.61,Recovered,Specialty Center,6,No
+887,50,Male,Kidney Disease,10,9184.89,Recovered,Care Clinic,4,No
+888,71,Other,COVID-19,3,5120.65,Under Treatment,Specialty Center,9,Yes
+889,37,Female,Hypertension,21,11877.92,Recovered,City Hospital,13,Yes
+890,6,Female,Cancer,17,7984.51,Recovered,General Hospital,13,Yes
+891,37,Other,Stroke,10,10549.1,Recovered,Care Clinic,2,No
+892,39,Female,Cancer,35,16775.49,Recovered,Care Clinic,7,Yes
+893,4,Female,Cancer,36,13522.05,Recovered,General Hospital,6,Yes
+894,49,Female,Stroke,35,13762.2,Recovered,General Hospital,10,Yes
+895,37,Female,COVID-19,28,16082.54,Recovered,General Hospital,9,No
+896,74,Male,Stroke,34,15393.68,Recovered,Specialty Center,11,Yes
+897,10,Male,COVID-19,12,11361.19,Recovered,General Hospital,11,No
+898,8,Male,Asthma,28,12516.05,Recovered,General Hospital,6,Yes
+899,23,Female,Stroke,1,5248.21,Recovered,General Hospital,14,Yes
+900,71,Male,Hypertension,28,13257.72,Recovered,City Hospital,14,No
+901,63,Female,Diabetes,26,10555.08,Recovered,General Hospital,1,Yes
+902,66,Male,Stroke,17,9808.64,Under Treatment,City Hospital,1,No
+903,38,Male,Heart Disease,30,16873.75,Recovered,Care Clinic,3,No
+904,20,Male,Asthma,15,9158.07,Recovered,Specialty Center,6,Yes
+905,31,Male,Cancer,16,14929.56,Recovered,City Hospital,3,Yes
+906,30,Female,Hypertension,3,10118.09,Recovered,Specialty Center,10,Yes
+907,48,Female,Diabetes,21,14471.34,Recovered,Specialty Center,10,No
+908,89,Female,Heart Disease,6,9359.7,Recovered,City Hospital,7,No
+909,10,Female,Stroke,39,14971.71,Recovered,General Hospital,1,Yes
+910,60,Female,Cancer,9,6517.5,Recovered,Care Clinic,13,No
+911,81,Female,Stroke,27,10899.64,Recovered,City Hospital,3,Yes
+912,9,Male,Cancer,36,16509.62,Recovered,Specialty Center,12,No
+913,58,Male,Heart Disease,16,17003.15,Recovered,General Hospital,11,Yes
+914,32,Male,Kidney Disease,3,8937.58,Recovered,Care Clinic,14,Yes
+915,88,Female,Kidney Disease,8,12754.95,Recovered,City Hospital,14,Yes
+916,16,Female,Heart Disease,13,9875.57,Recovered,General Hospital,4,Yes
+917,12,Male,Diabetes,24,11553.92,Recovered,Care Clinic,14,Yes
+918,35,Female,Diabetes,37,18244.91,Recovered,Specialty Center,13,Yes
+919,47,Male,Cancer,34,14268.15,Recovered,Specialty Center,8,No
+920,17,Female,Kidney Disease,8,8273.05,Recovered,Care Clinic,12,Yes
+921,29,Male,Hypertension,15,10993.28,Recovered,City Hospital,2,Yes
+922,57,Female,COVID-19,8,6314.09,Recovered,General Hospital,11,Yes
+923,36,Male,Heart Disease,4,8638.62,Dead,Specialty Center,4,No
+924,68,Female,Cancer,8,8652.9,Recovered,City Hospital,12,No
+925,7,Male,COVID-19,24,9742.34,Recovered,City Hospital,1,Yes
+926,19,Male,Cancer,14,10609.75,Recovered,Care Clinic,3,Yes
+927,28,Male,COVID-19,26,15284.81,Recovered,General Hospital,5,Yes
+928,86,Male,COVID-19,1,5229.45,Recovered,General Hospital,11,Yes
+929,21,Male,Heart Disease,12,15781.27,Recovered,Care Clinic,14,No
+930,5,Female,Heart Disease,1,4079.64,Recovered,City Hospital,11,Yes
+931,49,Male,Heart Disease,35,13573.35,Recovered,Specialty Center,10,Yes
+932,1,Male,Hypertension,35,17215.17,Recovered,City Hospital,2,Yes
+933,64,Female,Asthma,7,8904.11,Recovered,Care Clinic,11,No
+934,84,Female,COVID-19,5,5837.74,Recovered,General Hospital,11,Yes
+935,28,Female,Diabetes,9,11026.8,Recovered,Care Clinic,2,Yes
+936,44,Female,Heart Disease,17,8345.02,Recovered,Specialty Center,4,No
+937,48,Female,COVID-19,38,18391.32,Recovered,Specialty Center,4,Yes
+938,12,Female,Hypertension,21,15316.07,Dead,City Hospital,14,Yes
+939,18,Female,Diabetes,18,13127.57,Dead,Specialty Center,13,No
+940,45,Female,Stroke,8,9482.79,Recovered,General Hospital,4,Yes
+941,51,Male,COVID-19,14,8861.53,Recovered,Specialty Center,3,Yes
+942,5,Female,Heart Disease,2,5155.36,Recovered,Specialty Center,5,Yes
+943,31,Male,Asthma,24,14885.63,Recovered,Care Clinic,1,Yes
+944,66,Male,COVID-19,1,9175.58,Recovered,Care Clinic,1,Yes
+945,45,Male,Kidney Disease,20,10554.56,Recovered,General Hospital,1,Yes
+946,59,Male,COVID-19,25,13750.99,Recovered,Care Clinic,3,Yes
+947,73,Female,Diabetes,26,18622.66,Recovered,Specialty Center,4,No
+948,2,Female,Kidney Disease,38,15508.38,Dead,Care Clinic,7,Yes
+949,82,Male,Asthma,1,8327.01,Recovered,General Hospital,2,No
+950,56,Male,Kidney Disease,35,16701.52,Dead,Care Clinic,3,Yes
+951,35,Female,Asthma,32,16686.43,Recovered,Care Clinic,8,No
+952,44,Female,Stroke,25,17621.27,Recovered,Care Clinic,7,Yes
+953,25,Male,Kidney Disease,26,16630.12,Recovered,Care Clinic,3,Yes
+954,16,Male,COVID-19,17,9143.43,Recovered,General Hospital,9,Yes
+955,58,Male,Hypertension,6,9059.56,Recovered,Care Clinic,10,No
+956,41,Female,Asthma,5,2768.57,Recovered,General Hospital,9,Yes
+957,44,Male,Stroke,1,6356.01,Recovered,General Hospital,9,No
+958,20,Female,Stroke,38,11712.58,Recovered,General Hospital,4,Yes
+959,59,Male,Diabetes,19,8344.93,Under Treatment,Care Clinic,8,Yes
+960,68,Other,COVID-19,10,10294.68,Recovered,Care Clinic,8,Yes
+961,32,Female,Asthma,24,18507.72,Recovered,Specialty Center,6,Yes
+962,84,Other,Asthma,29,15443.7,Recovered,Specialty Center,5,Yes
+963,64,Male,Heart Disease,11,14168.73,Recovered,Care Clinic,4,Yes
+964,39,Female,Hypertension,23,7235.65,Under Treatment,City Hospital,11,No
+965,15,Male,Cancer,20,9053.86,Under Treatment,Care Clinic,7,No
+966,18,Male,Diabetes,28,11997.46,Recovered,Specialty Center,3,Yes
+967,71,Male,Hypertension,22,10673.55,Recovered,City Hospital,4,Yes
+968,67,Male,Diabetes,24,15461.04,Dead,Specialty Center,7,Yes
+969,72,Male,Heart Disease,27,11110.15,Recovered,Specialty Center,2,No
+970,29,Male,Hypertension,28,11653.29,Recovered,Care Clinic,12,Yes
+971,72,Other,Heart Disease,33,13497.04,Recovered,Specialty Center,8,Yes
+972,1,Female,Cancer,5,2634.99,Recovered,General Hospital,13,Yes
+973,85,Female,Hypertension,20,10882.71,Recovered,Care Clinic,1,No
+974,45,Male,Stroke,16,11999.51,Recovered,Specialty Center,10,Yes
+975,66,Male,COVID-19,16,10344.29,Recovered,General Hospital,1,Yes
+976,34,Other,Hypertension,24,13043.8,Recovered,Care Clinic,10,Yes
+977,21,Female,Heart Disease,26,13952.49,Under Treatment,City Hospital,11,No
+978,48,Female,Kidney Disease,30,13208.82,Recovered,General Hospital,11,Yes
+979,33,Female,Diabetes,11,8669.33,Recovered,City Hospital,12,Yes
+980,57,Male,COVID-19,35,15146.52,Recovered,Care Clinic,13,Yes
+981,40,Male,Heart Disease,11,10016.7,Recovered,Care Clinic,9,Yes
+982,71,Female,Diabetes,1,5924.1,Recovered,General Hospital,11,Yes
+983,15,Male,Heart Disease,16,7953.2,Recovered,General Hospital,7,Yes
+984,73,Male,Cancer,5,9063.97,Dead,Specialty Center,1,Yes
+985,30,Female,Asthma,4,3942.43,Recovered,City Hospital,2,Yes
+986,44,Female,Heart Disease,3,5958.9,Recovered,General Hospital,14,Yes
+987,55,Male,Kidney Disease,7,7552.37,Recovered,Care Clinic,8,Yes
+988,17,Male,COVID-19,34,13091.06,Recovered,General Hospital,7,Yes
+989,39,Female,Hypertension,28,11912.97,Under Treatment,General Hospital,14,No
+990,48,Male,Heart Disease,37,17641.98,Recovered,City Hospital,6,Yes
+991,85,Female,Asthma,32,19330.38,Dead,City Hospital,7,Yes
+992,3,Female,Asthma,11,5802.07,Recovered,Specialty Center,5,Yes
+993,37,Female,COVID-19,38,15419.0,Recovered,General Hospital,5,Yes
+994,17,Female,Kidney Disease,18,11699.01,Recovered,General Hospital,4,No
+995,81,Female,Cancer,29,14490.9,Recovered,City Hospital,3,Yes
+996,75,Male,Diabetes,34,11345.09,Recovered,General Hospital,10,Yes
+997,74,Female,Heart Disease,3,7988.27,Recovered,City Hospital,13,No
+998,65,Female,Stroke,32,15001.81,Recovered,Care Clinic,2,Yes
+999,74,Female,Kidney Disease,35,17012.13,Recovered,Specialty Center,13,No
+1000,25,Female,Stroke,25,10321.62,Recovered,Care Clinic,13,Yes
+1001,16,Male,Diabetes,29,14112.99,Recovered,Care Clinic,5,Yes
+1002,55,Female,Kidney Disease,18,9306.79,Recovered,Specialty Center,2,No
+1003,59,Male,Cancer,38,17203.18,Recovered,City Hospital,2,No
+1004,32,Male,COVID-19,29,18440.4,Recovered,General Hospital,3,Yes
+1005,63,Female,Diabetes,1,9267.05,Recovered,Care Clinic,9,No
+1006,52,Female,Asthma,12,8819.18,Recovered,Specialty Center,11,No
+1007,25,Female,Stroke,10,10143.15,Recovered,General Hospital,11,No
+1008,13,Female,Heart Disease,39,17209.2,Dead,General Hospital,11,Yes
+1009,80,Male,COVID-19,24,9703.09,Under Treatment,General Hospital,11,Yes
+1010,84,Female,Heart Disease,22,17855.61,Under Treatment,Care Clinic,6,Yes
+1011,28,Male,Heart Disease,14,11957.13,Recovered,City Hospital,14,No
+1012,60,Female,Kidney Disease,2,9961.91,Dead,General Hospital,1,No
+1013,8,Male,Heart Disease,35,13766.79,Recovered,City Hospital,13,Yes
+1014,31,Female,Stroke,37,13160.96,Recovered,City Hospital,12,No
+1015,62,Female,Hypertension,5,6954.11,Recovered,Care Clinic,2,Yes
+1016,34,Female,COVID-19,5,8496.11,Recovered,Specialty Center,9,Yes
+1017,42,Male,Heart Disease,33,14812.76,Recovered,General Hospital,4,Yes
+1018,84,Male,Asthma,12,7411.85,Recovered,General Hospital,14,Yes
+1019,69,Male,Hypertension,30,16369.61,Recovered,General Hospital,4,Yes
+1020,37,Female,Heart Disease,27,12270.06,Recovered,Care Clinic,10,Yes
+1021,31,Male,Stroke,4,11538.53,Recovered,General Hospital,8,Yes
+1022,33,Male,Diabetes,27,13266.08,Under Treatment,Care Clinic,10,Yes
+1023,81,Female,Cancer,33,14354.36,Recovered,Specialty Center,3,Yes
+1024,43,Male,Diabetes,23,12313.04,Recovered,Specialty Center,14,No
+1025,23,Female,Hypertension,12,9738.58,Recovered,Care Clinic,9,Yes
+1026,45,Female,Heart Disease,15,11474.95,Recovered,Care Clinic,7,No
+1027,41,Female,Diabetes,34,12609.48,Recovered,Care Clinic,11,Yes
+1028,81,Female,Asthma,17,15900.41,Recovered,City Hospital,2,Yes
+1029,18,Female,Stroke,3,9672.88,Recovered,Specialty Center,8,Yes
+1030,14,Male,Asthma,14,13833.78,Under Treatment,City Hospital,11,No
+1031,16,Male,Asthma,12,6966.49,Under Treatment,Specialty Center,9,Yes
+1032,24,Male,Asthma,16,12017.11,Recovered,City Hospital,8,Yes
+1033,67,Male,Asthma,14,12861.38,Recovered,Care Clinic,4,Yes
+1034,13,Male,Diabetes,3,11456.3,Recovered,General Hospital,7,Yes
+1035,39,Male,Kidney Disease,9,4887.36,Recovered,Care Clinic,9,Yes
+1036,21,Female,Asthma,30,12270.31,Recovered,Care Clinic,8,Yes
+1037,61,Male,Asthma,9,8379.87,Recovered,General Hospital,11,Yes
+1038,19,Female,Asthma,3,8646.86,Recovered,City Hospital,11,Yes
+1039,80,Female,Stroke,17,8419.59,Under Treatment,Specialty Center,2,Yes
+1040,28,Female,Hypertension,8,12064.34,Recovered,City Hospital,12,Yes
+1041,69,Male,Heart Disease,9,6732.66,Under Treatment,Care Clinic,11,No
+1042,8,Female,Diabetes,30,9610.78,Recovered,Specialty Center,2,Yes
+1043,15,Female,Hypertension,20,12384.41,Recovered,Specialty Center,11,No
+1044,73,Male,Diabetes,4,6875.95,Dead,Specialty Center,9,Yes
+1045,18,Other,Diabetes,26,13652.48,Recovered,Specialty Center,3,No
+1046,20,Male,COVID-19,4,7643.23,Recovered,City Hospital,4,Yes
+1047,45,Male,COVID-19,28,17487.85,Recovered,City Hospital,10,Yes
+1048,59,Female,Hypertension,9,10916.53,Recovered,Care Clinic,7,No
+1049,26,Male,Heart Disease,28,13746.98,Under Treatment,Care Clinic,2,Yes
+1050,66,Male,Stroke,29,10882.41,Recovered,Care Clinic,5,Yes
+1051,38,Female,Heart Disease,22,11364.35,Recovered,General Hospital,11,Yes
+1052,6,Other,Stroke,7,7583.42,Recovered,Specialty Center,7,Yes
+1053,3,Female,Cancer,3,3934.27,Under Treatment,Care Clinic,7,Yes
+1054,21,Female,Kidney Disease,26,15453.52,Under Treatment,Specialty Center,10,Yes
+1055,87,Male,Stroke,18,8030.03,Dead,Care Clinic,10,Yes
+1056,49,Male,Cancer,22,9017.3,Dead,Specialty Center,9,No
+1057,22,Female,Stroke,39,14880.07,Recovered,City Hospital,13,Yes
+1058,84,Female,Kidney Disease,35,12874.35,Recovered,Care Clinic,10,Yes
+1059,45,Male,Asthma,30,13500.05,Recovered,Care Clinic,10,Yes
+1060,30,Female,Heart Disease,20,8417.03,Recovered,Specialty Center,11,No
+1061,32,Male,Asthma,10,8574.72,Recovered,City Hospital,14,No
+1062,2,Male,Diabetes,22,11789.12,Recovered,City Hospital,11,No
+1063,48,Other,Asthma,17,12184.72,Dead,Specialty Center,1,No
+1064,39,Female,Heart Disease,8,9657.57,Recovered,City Hospital,7,Yes
+1065,30,Other,Diabetes,3,7189.8,Under Treatment,City Hospital,13,No
+1066,32,Female,Hypertension,14,11347.1,Recovered,Care Clinic,1,Yes
+1067,27,Male,Cancer,16,10321.18,Recovered,Care Clinic,2,No
+1068,12,Female,Diabetes,25,16663.83,Recovered,General Hospital,10,Yes
+1069,46,Male,Kidney Disease,20,10156.57,Recovered,Care Clinic,12,Yes
+1070,87,Male,Hypertension,10,8082.96,Dead,General Hospital,5,Yes
+1071,79,Male,COVID-19,19,11751.84,Recovered,Care Clinic,11,Yes
+1072,60,Male,Asthma,1,5342.34,Recovered,Specialty Center,4,No
+1073,50,Female,Hypertension,29,17462.94,Recovered,Care Clinic,6,Yes
+1074,67,Male,Stroke,15,12313.33,Recovered,City Hospital,3,No
+1075,79,Female,Asthma,6,10232.65,Recovered,Specialty Center,13,No
+1076,69,Female,Asthma,26,14820.6,Recovered,Care Clinic,6,Yes
+1077,40,Female,Diabetes,9,11048.6,Recovered,Specialty Center,14,No
+1078,10,Male,Stroke,5,6485.31,Recovered,Specialty Center,1,Yes
+1079,46,Female,Kidney Disease,19,13001.55,Recovered,General Hospital,7,Yes
+1080,86,Female,Stroke,16,8307.58,Recovered,City Hospital,6,No
+1081,3,Female,Cancer,9,6894.14,Recovered,City Hospital,14,Yes
+1082,50,Male,Kidney Disease,27,14692.77,Recovered,Specialty Center,9,Yes
+1083,39,Male,Kidney Disease,34,15380.3,Recovered,City Hospital,6,Yes
+1084,44,Male,Heart Disease,26,14133.41,Recovered,City Hospital,7,Yes
+1085,66,Female,Kidney Disease,35,14317.42,Recovered,Care Clinic,4,Yes
+1086,54,Female,Asthma,16,9142.29,Recovered,Specialty Center,9,No
+1087,57,Female,Asthma,8,8105.11,Recovered,Specialty Center,9,Yes
+1088,89,Male,Asthma,33,15400.68,Under Treatment,Care Clinic,12,No
+1089,38,Female,COVID-19,39,15901.57,Under Treatment,Specialty Center,13,Yes
+1090,30,Male,Asthma,15,12822.04,Under Treatment,General Hospital,6,Yes
+1091,70,Other,Kidney Disease,9,8451.37,Recovered,Specialty Center,14,Yes
+1092,79,Male,Asthma,18,7499.24,Recovered,Care Clinic,2,Yes
+1093,21,Female,Diabetes,1,8324.02,Recovered,General Hospital,11,No
+1094,58,Female,Asthma,26,16408.17,Under Treatment,Specialty Center,3,No
+1095,84,Female,Heart Disease,3,8897.6,Recovered,Care Clinic,3,Yes
+1096,13,Female,Hypertension,31,16879.09,Recovered,City Hospital,11,No
+1097,75,Male,Kidney Disease,25,11145.52,Recovered,General Hospital,10,No
+1098,68,Female,Asthma,15,11581.3,Under Treatment,Care Clinic,1,Yes
+1099,53,Male,Heart Disease,4,9450.52,Recovered,General Hospital,3,No
+1100,34,Male,Cancer,35,15624.81,Recovered,Specialty Center,6,Yes
+1101,78,Other,COVID-19,13,7134.05,Recovered,General Hospital,1,Yes
+1102,59,Male,Stroke,33,15527.17,Under Treatment,City Hospital,9,Yes
+1103,58,Male,Stroke,22,15926.53,Recovered,City Hospital,14,No
+1104,38,Male,COVID-19,17,10012.56,Recovered,General Hospital,12,Yes
+1105,12,Male,Heart Disease,27,19092.97,Recovered,General Hospital,5,No
+1106,78,Male,Cancer,20,11548.25,Recovered,General Hospital,8,Yes
+1107,56,Male,Hypertension,27,14669.82,Recovered,General Hospital,4,Yes
+1108,14,Male,COVID-19,3,5215.22,Recovered,Specialty Center,5,Yes
+1109,89,Female,Asthma,8,3580.89,Recovered,Specialty Center,12,No
+1110,19,Male,Kidney Disease,15,13024.66,Recovered,General Hospital,1,Yes
+1111,82,Female,Stroke,3,9267.56,Recovered,Specialty Center,13,Yes
+1112,76,Male,Diabetes,29,7060.81,Recovered,Care Clinic,10,Yes
+1113,67,Female,Cancer,29,13679.73,Recovered,General Hospital,7,Yes
+1114,54,Female,COVID-19,33,14222.7,Recovered,City Hospital,3,Yes
+1115,73,Female,Hypertension,33,17467.01,Recovered,General Hospital,7,Yes
+1116,28,Female,COVID-19,6,10253.14,Recovered,Care Clinic,1,Yes
+1117,86,Female,Hypertension,30,12087.85,Recovered,Specialty Center,7,Yes
+1118,1,Female,Heart Disease,9,11683.22,Dead,Care Clinic,9,Yes
+1119,12,Female,Diabetes,15,10654.8,Under Treatment,General Hospital,8,Yes
+1120,68,Male,Hypertension,1,7508.43,Recovered,Care Clinic,1,Yes
+1121,88,Male,Hypertension,6,9642.31,Recovered,Specialty Center,5,No
+1122,63,Male,Cancer,26,15652.57,Recovered,City Hospital,3,Yes
+1123,61,Female,Kidney Disease,2,3102.16,Under Treatment,Specialty Center,10,No
+1124,3,Female,Cancer,26,11231.07,Recovered,City Hospital,4,Yes
+1125,6,Male,Hypertension,9,5825.55,Recovered,City Hospital,6,Yes
+1126,1,Male,Heart Disease,6,9875.37,Recovered,City Hospital,10,Yes
+1127,81,Other,Kidney Disease,38,22129.11,Recovered,Care Clinic,13,Yes
+1128,3,Male,Asthma,31,11977.01,Recovered,General Hospital,11,Yes
+1129,51,Female,Cancer,38,14420.09,Recovered,General Hospital,5,Yes
+1130,3,Female,Stroke,39,18557.35,Recovered,Specialty Center,13,Yes
+1131,9,Female,Diabetes,14,13405.66,Recovered,Care Clinic,14,No
+1132,18,Male,Kidney Disease,7,10059.98,Recovered,Specialty Center,13,Yes
+1133,26,Female,Cancer,35,16536.94,Under Treatment,Care Clinic,9,No
+1134,22,Male,Kidney Disease,16,7368.73,Recovered,Care Clinic,5,Yes
+1135,65,Female,Heart Disease,19,10924.01,Recovered,City Hospital,5,Yes
+1136,83,Male,Kidney Disease,21,12057.36,Recovered,Care Clinic,2,Yes
+1137,70,Female,Hypertension,38,20851.4,Under Treatment,City Hospital,10,Yes
+1138,26,Male,Hypertension,20,11709.5,Recovered,General Hospital,3,Yes
+1139,85,Male,COVID-19,28,13724.22,Recovered,Care Clinic,2,Yes
+1140,62,Male,Cancer,28,13458.17,Recovered,Specialty Center,9,Yes
+1141,69,Male,Diabetes,28,11322.89,Dead,Specialty Center,10,No
+1142,82,Other,COVID-19,3,12818.67,Recovered,Care Clinic,10,Yes
+1143,15,Female,Kidney Disease,34,13416.84,Recovered,General Hospital,13,Yes
+1144,20,Male,Hypertension,6,6167.01,Under Treatment,General Hospital,3,Yes
+1145,48,Male,Kidney Disease,22,13326.46,Recovered,Care Clinic,9,Yes
+1146,28,Male,Heart Disease,8,6758.72,Recovered,Specialty Center,8,Yes
+1147,57,Male,Asthma,4,9033.82,Recovered,City Hospital,13,Yes
+1148,37,Male,Asthma,4,11553.24,Recovered,Specialty Center,5,No
+1149,51,Female,Diabetes,24,10002.68,Dead,Specialty Center,6,No
+1150,73,Female,Kidney Disease,15,9851.79,Dead,General Hospital,4,Yes
+1151,20,Female,Kidney Disease,39,15499.61,Recovered,Specialty Center,3,No
+1152,7,Female,Diabetes,19,12459.77,Recovered,Specialty Center,2,Yes
+1153,51,Female,Kidney Disease,27,15711.1,Under Treatment,General Hospital,4,Yes
+1154,58,Male,Diabetes,15,8211.06,Recovered,Care Clinic,12,No
+1155,9,Female,COVID-19,38,16603.31,Recovered,Specialty Center,3,No
+1156,33,Male,COVID-19,10,8103.61,Recovered,Care Clinic,8,No
+1157,86,Female,Stroke,28,14805.85,Recovered,City Hospital,3,Yes
+1158,65,Female,Heart Disease,19,9302.65,Recovered,City Hospital,9,Yes
+1159,8,Male,Asthma,3,7425.65,Recovered,Specialty Center,1,Yes
+1160,50,Male,Cancer,39,18551.73,Recovered,City Hospital,6,No
+1161,48,Male,Kidney Disease,31,14622.7,Recovered,City Hospital,5,Yes
+1162,63,Male,Asthma,2,9274.46,Recovered,City Hospital,4,No
+1163,89,Male,Kidney Disease,20,11544.22,Recovered,City Hospital,14,No
+1164,73,Female,Kidney Disease,36,18097.28,Recovered,Care Clinic,1,Yes
+1165,81,Female,Asthma,6,5756.38,Dead,Specialty Center,12,Yes
+1166,75,Male,Diabetes,26,11145.6,Recovered,City Hospital,11,Yes
+1167,83,Male,Asthma,2,11677.35,Recovered,Care Clinic,13,Yes
+1168,86,Female,Kidney Disease,15,10919.48,Recovered,City Hospital,3,Yes
+1169,9,Female,Diabetes,1,11326.96,Recovered,Care Clinic,11,No
+1170,10,Male,Cancer,31,18208.43,Recovered,Care Clinic,9,Yes
+1171,89,Female,Stroke,3,8462.32,Under Treatment,Care Clinic,5,No
+1172,21,Male,COVID-19,1,4562.94,Recovered,City Hospital,3,Yes
+1173,75,Female,Diabetes,33,16903.22,Recovered,Care Clinic,1,Yes
+1174,20,Female,Cancer,31,13113.11,Recovered,General Hospital,4,Yes
+1175,12,Female,COVID-19,16,9494.63,Recovered,Specialty Center,8,Yes
+1176,50,Female,Heart Disease,16,8678.23,Dead,Care Clinic,12,Yes
+1177,79,Female,Hypertension,21,11583.93,Recovered,General Hospital,4,Yes
+1178,6,Male,Diabetes,33,14811.14,Recovered,Care Clinic,8,No
+1179,17,Female,COVID-19,30,12845.42,Dead,Care Clinic,13,Yes
+1180,57,Male,Stroke,20,8309.81,Dead,City Hospital,10,Yes
+1181,69,Male,COVID-19,3,7440.49,Recovered,Specialty Center,3,Yes
+1182,79,Female,Cancer,18,8110.7,Recovered,City Hospital,4,Yes
+1183,51,Female,Cancer,9,10546.45,Recovered,Specialty Center,2,No
+1184,67,Male,Stroke,36,14137.63,Dead,City Hospital,13,No
+1185,3,Male,Cancer,30,9934.36,Dead,City Hospital,1,Yes
+1186,79,Male,Cancer,24,9859.81,Recovered,Specialty Center,9,No
+1187,48,Male,Heart Disease,36,16035.96,Recovered,Specialty Center,6,Yes
+1188,72,Male,Asthma,38,17444.52,Recovered,General Hospital,3,No
+1189,6,Male,Diabetes,22,13216.86,Dead,Specialty Center,8,Yes
+1190,5,Female,Stroke,15,7726.19,Recovered,General Hospital,7,Yes
+1191,16,Male,Asthma,28,16294.09,Recovered,General Hospital,5,Yes
+1192,53,Male,Hypertension,36,18657.65,Recovered,Specialty Center,13,No
+1193,17,Female,Stroke,37,18390.85,Dead,General Hospital,2,Yes
+1194,39,Male,Kidney Disease,7,10753.32,Recovered,Specialty Center,2,Yes
+1195,5,Male,Stroke,8,9326.85,Recovered,City Hospital,7,Yes
+1196,88,Female,Kidney Disease,3,9331.2,Recovered,General Hospital,13,No
+1197,25,Female,Asthma,15,14293.95,Recovered,City Hospital,1,No
+1198,21,Female,Kidney Disease,29,14646.48,Recovered,General Hospital,12,Yes
+1199,8,Male,Kidney Disease,22,11934.77,Dead,Care Clinic,5,Yes
+1200,46,Female,Diabetes,24,11238.28,Dead,General Hospital,6,Yes
+1201,34,Male,Cancer,3,4472.0,Recovered,General Hospital,11,No
+1202,79,Male,Stroke,8,13371.78,Recovered,City Hospital,1,Yes
+1203,35,Other,Hypertension,33,16073.02,Recovered,Specialty Center,2,Yes
+1204,26,Male,Hypertension,30,18795.62,Recovered,Specialty Center,3,Yes
+1205,35,Male,Diabetes,27,15826.36,Under Treatment,General Hospital,10,Yes
+1206,53,Female,Kidney Disease,37,18003.36,Recovered,City Hospital,13,Yes
+1207,15,Female,Stroke,26,17788.94,Recovered,Specialty Center,14,No
+1208,67,Female,COVID-19,5,8384.82,Recovered,Care Clinic,4,Yes
+1209,41,Other,Heart Disease,28,12933.84,Recovered,General Hospital,14,Yes
+1210,9,Male,Asthma,10,6746.01,Recovered,General Hospital,6,Yes
+1211,36,Male,Kidney Disease,21,10221.42,Recovered,Specialty Center,3,Yes
+1212,52,Female,Stroke,32,12030.71,Dead,General Hospital,6,Yes
+1213,58,Female,Hypertension,17,10682.77,Recovered,Care Clinic,8,Yes
+1214,10,Female,COVID-19,12,6189.5,Recovered,Care Clinic,6,Yes
+1215,30,Female,COVID-19,1,3172.66,Recovered,Specialty Center,12,Yes
+1216,58,Female,Kidney Disease,34,10641.2,Recovered,City Hospital,10,Yes
+1217,81,Female,Asthma,9,7585.91,Dead,Care Clinic,13,No
+1218,89,Male,Stroke,38,15891.92,Recovered,General Hospital,12,Yes
+1219,75,Female,Cancer,23,7845.19,Dead,City Hospital,10,Yes
+1220,59,Male,Hypertension,1,5807.54,Recovered,General Hospital,6,No
+1221,31,Female,Heart Disease,24,16760.46,Recovered,Specialty Center,14,Yes
+1222,76,Female,Stroke,35,19066.73,Recovered,City Hospital,8,No
+1223,25,Female,Stroke,8,9371.04,Recovered,General Hospital,9,Yes
+1224,39,Female,Cancer,4,6768.16,Recovered,City Hospital,12,No
+1225,56,Male,Stroke,38,13956.01,Recovered,General Hospital,1,Yes
+1226,77,Female,Kidney Disease,18,11121.43,Under Treatment,Specialty Center,10,Yes
+1227,30,Male,Diabetes,39,16522.52,Recovered,Care Clinic,14,Yes
+1228,3,Male,Heart Disease,22,14721.35,Recovered,General Hospital,13,Yes
+1229,31,Male,Kidney Disease,21,13519.81,Recovered,City Hospital,2,Yes
+1230,85,Male,Cancer,10,9773.67,Recovered,Care Clinic,9,No
+1231,46,Female,Cancer,29,14115.06,Recovered,Specialty Center,13,Yes
+1232,35,Male,COVID-19,17,9036.54,Recovered,Specialty Center,2,No
+1233,13,Male,Cancer,11,3766.07,Recovered,City Hospital,14,No
+1234,30,Male,Cancer,16,12626.13,Recovered,Care Clinic,4,No
+1235,70,Male,Hypertension,39,15084.87,Recovered,General Hospital,10,Yes
+1236,11,Female,Stroke,12,12269.88,Recovered,City Hospital,6,Yes
+1237,11,Female,Hypertension,15,9950.89,Recovered,Specialty Center,5,No
+1238,68,Male,Asthma,16,10541.9,Recovered,General Hospital,10,Yes
+1239,22,Male,Stroke,30,12587.0,Recovered,Specialty Center,9,Yes
+1240,69,Female,Cancer,10,12661.82,Recovered,Care Clinic,11,No
+1241,31,Female,Hypertension,1,7528.42,Recovered,General Hospital,6,Yes
+1242,31,Male,Cancer,1,4306.75,Recovered,General Hospital,11,Yes
+1243,87,Male,Stroke,34,14204.38,Recovered,City Hospital,7,No
+1244,3,Male,Kidney Disease,18,7690.93,Recovered,General Hospital,13,Yes
+1245,35,Female,Cancer,28,13937.75,Recovered,General Hospital,9,Yes
+1246,85,Other,Diabetes,22,9024.64,Recovered,City Hospital,11,Yes
+1247,60,Male,Kidney Disease,2,3694.62,Dead,Care Clinic,7,Yes
+1248,85,Male,Asthma,4,13068.12,Recovered,Specialty Center,12,No
+1249,10,Male,Cancer,20,17274.16,Recovered,City Hospital,4,No
+1250,76,Male,Kidney Disease,19,11657.84,Recovered,Specialty Center,14,No
+1251,27,Male,Asthma,33,18212.61,Recovered,Care Clinic,6,No
+1252,12,Male,Kidney Disease,30,13159.58,Recovered,Care Clinic,8,Yes
+1253,87,Female,Asthma,1,5731.94,Recovered,General Hospital,8,No
+1254,86,Female,Asthma,10,10894.96,Recovered,City Hospital,10,No
+1255,87,Female,Asthma,11,11566.81,Recovered,Specialty Center,12,Yes
+1256,87,Male,Hypertension,25,12982.85,Recovered,Care Clinic,9,No
+1257,15,Female,Kidney Disease,18,14722.92,Recovered,City Hospital,2,Yes
+1258,26,Other,COVID-19,27,17394.43,Recovered,Care Clinic,1,Yes
+1259,28,Female,Asthma,18,13943.05,Recovered,Care Clinic,8,Yes
+1260,13,Female,COVID-19,10,9446.22,Recovered,General Hospital,8,No
+1261,44,Female,Diabetes,18,15774.48,Recovered,Specialty Center,9,No
+1262,38,Female,Kidney Disease,32,18312.29,Recovered,Specialty Center,6,No
+1263,4,Male,Hypertension,2,6373.09,Dead,Care Clinic,2,Yes
+1264,78,Male,Stroke,34,16101.93,Recovered,Care Clinic,14,Yes
+1265,47,Male,Cancer,4,8567.27,Recovered,General Hospital,2,No
+1266,8,Female,Asthma,21,6253.62,Recovered,Care Clinic,14,No
+1267,66,Female,Stroke,4,6880.35,Recovered,Specialty Center,3,Yes
+1268,8,Male,Diabetes,15,11243.46,Recovered,Specialty Center,3,Yes
+1269,89,Male,Diabetes,31,16318.41,Recovered,Specialty Center,3,Yes
+1270,75,Male,Stroke,26,16263.57,Dead,General Hospital,11,No
+1271,59,Male,Kidney Disease,2,8563.87,Recovered,Care Clinic,4,Yes
+1272,59,Male,Diabetes,21,9598.6,Under Treatment,City Hospital,3,Yes
+1273,17,Male,Cancer,30,14123.57,Recovered,Care Clinic,13,Yes
+1274,30,Female,Asthma,7,13322.34,Recovered,Specialty Center,6,No
+1275,51,Other,Cancer,36,19668.06,Dead,Care Clinic,14,Yes
+1276,57,Female,Kidney Disease,38,15696.72,Recovered,Care Clinic,10,No
+1277,10,Male,Asthma,36,15749.81,Recovered,City Hospital,3,Yes
+1278,34,Male,Heart Disease,36,17752.43,Recovered,Care Clinic,1,No
+1279,15,Female,Stroke,14,8141.9,Recovered,General Hospital,11,Yes
+1280,86,Female,Heart Disease,21,12502.85,Recovered,City Hospital,2,No
+1281,25,Male,Stroke,34,18065.01,Recovered,City Hospital,12,No
+1282,14,Female,Cancer,19,9230.89,Recovered,City Hospital,5,Yes
+1283,25,Male,Kidney Disease,4,11409.4,Recovered,Care Clinic,13,Yes
+1284,53,Female,Cancer,2,7331.42,Recovered,Specialty Center,8,No
+1285,17,Female,Asthma,15,9408.11,Recovered,General Hospital,13,Yes
+1286,66,Male,Kidney Disease,30,10351.61,Recovered,City Hospital,13,No
+1287,85,Male,Stroke,7,9682.03,Recovered,Care Clinic,10,Yes
+1288,48,Female,Hypertension,19,12583.53,Recovered,Specialty Center,1,Yes
+1289,2,Female,Asthma,3,4580.56,Recovered,Care Clinic,11,No
+1290,63,Male,Cancer,28,8171.26,Recovered,City Hospital,4,Yes
+1291,52,Male,Asthma,27,12691.66,Recovered,General Hospital,3,Yes
+1292,72,Other,Asthma,31,11012.23,Recovered,City Hospital,6,Yes
+1293,53,Male,COVID-19,31,9879.85,Dead,Care Clinic,9,No
+1294,27,Female,COVID-19,22,12434.64,Under Treatment,City Hospital,1,No
+1295,57,Female,Heart Disease,7,7945.69,Recovered,City Hospital,13,No
+1296,23,Female,Stroke,29,12044.0,Recovered,City Hospital,2,Yes
+1297,61,Male,Asthma,21,9647.14,Recovered,City Hospital,4,Yes
+1298,12,Female,Hypertension,10,10263.76,Recovered,Specialty Center,2,Yes
+1299,70,Female,Hypertension,37,16634.32,Recovered,Specialty Center,6,No
+1300,43,Female,Asthma,8,12003.58,Recovered,Care Clinic,4,Yes
+1301,24,Female,Diabetes,31,14317.66,Recovered,City Hospital,1,Yes
+1302,57,Male,Hypertension,39,11764.59,Recovered,General Hospital,7,Yes
+1303,25,Male,Hypertension,6,6735.1,Under Treatment,Care Clinic,8,No
+1304,20,Male,Hypertension,25,10790.29,Recovered,City Hospital,13,Yes
+1305,47,Female,Asthma,2,7058.88,Recovered,City Hospital,9,Yes
+1306,45,Male,Heart Disease,6,5079.88,Recovered,General Hospital,14,Yes
+1307,6,Female,Hypertension,2,4026.96,Recovered,Specialty Center,3,Yes
+1308,85,Female,Cancer,9,6081.54,Recovered,General Hospital,7,Yes
+1309,31,Male,COVID-19,13,9432.22,Recovered,Specialty Center,6,Yes
+1310,81,Female,COVID-19,6,10073.24,Recovered,City Hospital,12,No
+1311,33,Male,Asthma,29,13128.39,Recovered,City Hospital,5,No
+1312,66,Female,Cancer,6,7529.58,Recovered,Care Clinic,8,Yes
+1313,2,Female,Hypertension,37,19719.26,Recovered,General Hospital,9,Yes
+1314,45,Male,COVID-19,16,14240.47,Recovered,General Hospital,6,Yes
+1315,14,Male,Kidney Disease,4,7644.85,Recovered,Care Clinic,14,Yes
+1316,3,Female,Cancer,9,7123.33,Dead,City Hospital,1,Yes
+1317,88,Male,Kidney Disease,19,13447.64,Recovered,Specialty Center,8,Yes
+1318,12,Female,Kidney Disease,13,10258.59,Recovered,Specialty Center,12,Yes
+1319,51,Female,Hypertension,5,11599.48,Recovered,Care Clinic,7,Yes
+1320,73,Female,Diabetes,17,12007.84,Recovered,City Hospital,2,Yes
+1321,4,Female,Kidney Disease,3,6055.5,Recovered,City Hospital,7,Yes
+1322,5,Male,Stroke,8,7352.29,Dead,Care Clinic,5,No
+1323,53,Male,Asthma,37,18415.65,Recovered,Specialty Center,5,No
+1324,69,Female,Cancer,1,6204.01,Recovered,Care Clinic,1,No
+1325,76,Female,Asthma,2,5394.36,Recovered,City Hospital,11,Yes
+1326,45,Female,Diabetes,1,11751.76,Recovered,City Hospital,5,Yes
+1327,11,Female,Cancer,21,9416.25,Recovered,Specialty Center,6,No
+1328,27,Female,Asthma,21,8994.57,Recovered,City Hospital,6,Yes
+1329,86,Male,Asthma,24,14095.22,Recovered,General Hospital,7,Yes
+1330,3,Male,Stroke,21,11050.71,Recovered,City Hospital,1,Yes
+1331,21,Female,Kidney Disease,14,11331.47,Recovered,City Hospital,8,Yes
+1332,11,Male,Asthma,15,9929.25,Recovered,General Hospital,1,No
+1333,28,Male,COVID-19,13,10607.34,Recovered,General Hospital,13,Yes
+1334,29,Female,Heart Disease,19,11613.59,Recovered,Care Clinic,1,Yes
+1335,81,Female,Diabetes,34,14041.88,Dead,Care Clinic,9,Yes
+1336,74,Male,Kidney Disease,37,18135.8,Recovered,General Hospital,10,Yes
+1337,79,Other,Kidney Disease,27,13016.19,Recovered,Specialty Center,7,Yes
+1338,44,Female,Stroke,39,17011.94,Recovered,Care Clinic,13,Yes
+1339,29,Male,COVID-19,19,12931.07,Under Treatment,City Hospital,14,Yes
+1340,68,Female,Hypertension,7,7057.0,Dead,City Hospital,7,No
+1341,24,Female,Asthma,19,11644.93,Recovered,Specialty Center,12,No
+1342,24,Female,Stroke,14,13035.28,Recovered,Care Clinic,7,Yes
+1343,14,Male,COVID-19,13,10047.17,Under Treatment,General Hospital,6,Yes
+1344,26,Male,Hypertension,13,11415.43,Recovered,City Hospital,3,Yes
+1345,75,Female,Cancer,2,7048.47,Under Treatment,General Hospital,4,Yes
+1346,3,Female,Hypertension,35,16839.54,Recovered,General Hospital,9,Yes
+1347,11,Female,Asthma,19,10417.86,Recovered,Specialty Center,3,Yes
+1348,47,Male,Cancer,22,12561.56,Dead,Specialty Center,14,Yes
+1349,50,Female,Asthma,20,14293.48,Recovered,City Hospital,13,No
+1350,6,Female,Stroke,34,18848.27,Recovered,City Hospital,2,Yes
+1351,52,Male,Cancer,15,10324.06,Recovered,Care Clinic,11,Yes
+1352,33,Female,Heart Disease,37,16079.18,Dead,General Hospital,9,Yes
+1353,17,Male,Asthma,10,9287.28,Recovered,City Hospital,4,Yes
+1354,40,Female,Kidney Disease,11,11653.84,Recovered,General Hospital,12,Yes
+1355,18,Male,Hypertension,6,3753.9,Recovered,Care Clinic,12,Yes
+1356,44,Female,Cancer,6,11630.48,Recovered,Specialty Center,3,No
+1357,4,Male,Hypertension,35,12683.51,Recovered,Care Clinic,11,No
+1358,57,Male,Kidney Disease,33,14092.08,Recovered,Specialty Center,11,No
+1359,79,Male,Kidney Disease,28,16400.91,Recovered,Care Clinic,11,Yes
+1360,49,Other,Asthma,33,15221.0,Under Treatment,Care Clinic,6,Yes
+1361,41,Male,Kidney Disease,8,9111.06,Recovered,Care Clinic,6,Yes
+1362,33,Male,COVID-19,29,14673.79,Dead,Care Clinic,3,Yes
+1363,64,Male,Hypertension,24,13714.55,Recovered,General Hospital,9,Yes
+1364,28,Male,Asthma,16,10396.68,Recovered,General Hospital,13,Yes
+1365,52,Female,Diabetes,16,10641.77,Recovered,Care Clinic,12,Yes
+1366,46,Female,Diabetes,2,10394.76,Recovered,City Hospital,9,Yes
+1367,60,Male,Heart Disease,19,14487.95,Recovered,Care Clinic,7,Yes
+1368,40,Female,Kidney Disease,11,15476.0,Recovered,General Hospital,9,No
+1369,10,Male,Diabetes,14,14241.14,Recovered,Care Clinic,12,Yes
+1370,54,Male,Diabetes,32,16708.28,Recovered,City Hospital,13,Yes
+1371,49,Female,COVID-19,38,18623.77,Recovered,Specialty Center,5,No
+1372,79,Male,COVID-19,33,16702.28,Recovered,Care Clinic,7,No
+1373,44,Male,COVID-19,9,9689.31,Recovered,Care Clinic,9,Yes
+1374,28,Female,Asthma,24,9900.23,Recovered,Specialty Center,12,No
+1375,39,Male,Kidney Disease,31,15564.96,Dead,Specialty Center,6,Yes
+1376,26,Female,Asthma,9,7574.39,Recovered,City Hospital,11,Yes
+1377,1,Male,Kidney Disease,5,9448.91,Recovered,Care Clinic,8,Yes
+1378,86,Male,Asthma,37,18585.52,Dead,City Hospital,14,Yes
+1379,87,Male,Asthma,27,9897.82,Recovered,General Hospital,2,Yes
+1380,89,Female,Kidney Disease,16,13187.48,Recovered,General Hospital,11,Yes
+1381,8,Male,COVID-19,14,10002.3,Under Treatment,Care Clinic,14,No
+1382,34,Male,Hypertension,25,15549.68,Recovered,General Hospital,11,Yes
+1383,15,Male,Stroke,5,10322.56,Recovered,General Hospital,13,Yes
+1384,66,Male,COVID-19,37,13931.79,Recovered,General Hospital,7,No
+1385,12,Female,Hypertension,16,9957.36,Recovered,Specialty Center,9,Yes
+1386,58,Male,Kidney Disease,20,13132.33,Recovered,General Hospital,14,No
+1387,18,Male,Cancer,2,3930.56,Recovered,Care Clinic,1,Yes
+1388,59,Male,Heart Disease,13,9860.89,Recovered,General Hospital,5,No
+1389,61,Male,Asthma,22,16037.09,Recovered,City Hospital,5,Yes
+1390,7,Male,Cancer,20,14338.92,Under Treatment,General Hospital,7,No
+1391,42,Female,Heart Disease,35,19701.37,Recovered,Care Clinic,9,Yes
+1392,66,Male,Asthma,37,14868.88,Recovered,General Hospital,1,No
+1393,46,Male,Asthma,4,6197.44,Recovered,Care Clinic,8,Yes
+1394,59,Female,Hypertension,34,16706.07,Recovered,General Hospital,13,Yes
+1395,48,Female,Diabetes,20,10577.75,Under Treatment,Specialty Center,11,No
+1396,77,Male,Kidney Disease,10,6522.52,Recovered,General Hospital,2,No
+1397,68,Female,Cancer,1,10541.29,Recovered,Care Clinic,6,Yes
+1398,23,Female,Kidney Disease,30,16977.93,Recovered,General Hospital,11,Yes
+1399,18,Male,COVID-19,12,9526.67,Recovered,Specialty Center,5,Yes
+1400,21,Female,Cancer,3,9019.23,Recovered,General Hospital,6,Yes
+1401,14,Female,COVID-19,15,14817.45,Recovered,City Hospital,8,Yes
+1402,77,Male,Diabetes,24,11101.76,Recovered,General Hospital,5,No
+1403,50,Female,Kidney Disease,27,17306.19,Recovered,Care Clinic,11,Yes
+1404,84,Female,Stroke,1,4580.45,Recovered,Specialty Center,13,Yes
+1405,77,Female,Hypertension,34,12670.3,Under Treatment,Specialty Center,10,Yes
+1406,8,Male,Hypertension,14,10958.15,Under Treatment,Specialty Center,13,Yes
+1407,4,Female,Stroke,29,13055.07,Recovered,Care Clinic,7,No
+1408,70,Male,Heart Disease,21,12025.5,Recovered,City Hospital,5,Yes
+1409,24,Female,COVID-19,27,13146.12,Recovered,City Hospital,10,Yes
+1410,24,Female,Diabetes,22,14890.21,Recovered,Specialty Center,1,No
+1411,49,Male,Kidney Disease,11,8690.51,Recovered,General Hospital,8,Yes
+1412,20,Other,Cancer,37,13126.11,Recovered,General Hospital,14,Yes
+1413,13,Male,Asthma,19,11480.91,Recovered,General Hospital,9,Yes
+1414,72,Female,Hypertension,19,17756.47,Recovered,City Hospital,1,No
+1415,58,Female,Stroke,7,5891.4,Under Treatment,General Hospital,10,No
+1416,34,Male,Hypertension,12,10397.29,Dead,City Hospital,1,Yes
+1417,47,Female,Heart Disease,9,6070.49,Recovered,Care Clinic,14,Yes
+1418,5,Other,COVID-19,17,7377.75,Under Treatment,Specialty Center,10,Yes
+1419,16,Male,Stroke,8,7451.44,Recovered,Specialty Center,1,Yes
+1420,80,Female,Kidney Disease,1,9352.51,Recovered,City Hospital,1,Yes
+1421,78,Male,Heart Disease,13,13685.27,Recovered,General Hospital,8,Yes
+1422,27,Male,Cancer,7,9000.1,Recovered,General Hospital,7,Yes
+1423,42,Female,Kidney Disease,3,7363.84,Recovered,Specialty Center,14,No
+1424,60,Female,Diabetes,19,13039.52,Under Treatment,City Hospital,5,Yes
+1425,31,Male,Stroke,1,5756.09,Recovered,General Hospital,10,Yes
+1426,14,Other,Diabetes,23,12457.8,Recovered,Care Clinic,8,Yes
+1427,78,Female,Hypertension,27,15540.67,Recovered,City Hospital,10,Yes
+1428,88,Female,Diabetes,4,4025.68,Recovered,Care Clinic,4,Yes
+1429,15,Female,Hypertension,25,11795.55,Recovered,City Hospital,1,No
+1430,20,Other,Hypertension,37,15797.29,Recovered,City Hospital,1,No
+1431,58,Male,Hypertension,5,9388.77,Recovered,City Hospital,1,No
+1432,28,Male,Heart Disease,20,7955.43,Recovered,City Hospital,2,Yes
+1433,27,Male,Stroke,18,6958.84,Recovered,City Hospital,10,Yes
+1434,1,Female,Hypertension,8,3832.81,Recovered,Specialty Center,9,No
+1435,12,Male,Heart Disease,39,14729.36,Recovered,Care Clinic,7,Yes
+1436,59,Male,Kidney Disease,12,11816.23,Recovered,General Hospital,2,Yes
+1437,24,Male,Asthma,34,16627.39,Under Treatment,Specialty Center,5,Yes
+1438,84,Male,Kidney Disease,31,16968.5,Recovered,City Hospital,1,Yes
+1439,23,Female,Stroke,12,9577.61,Recovered,General Hospital,3,Yes
+1440,3,Female,Hypertension,26,13092.82,Recovered,City Hospital,4,Yes
+1441,16,Male,Kidney Disease,29,13907.43,Recovered,General Hospital,1,Yes
+1442,47,Male,COVID-19,12,8798.83,Recovered,General Hospital,3,Yes
+1443,66,Female,Kidney Disease,25,19588.23,Recovered,Specialty Center,14,No
+1444,37,Male,Cancer,17,12213.3,Under Treatment,Care Clinic,3,No
+1445,85,Female,Hypertension,31,12599.24,Recovered,General Hospital,14,Yes
+1446,3,Female,COVID-19,21,11717.97,Recovered,General Hospital,3,Yes
+1447,61,Male,Kidney Disease,18,13770.15,Dead,Care Clinic,7,Yes
+1448,12,Female,Hypertension,32,10174.86,Dead,Specialty Center,6,Yes
+1449,89,Female,Diabetes,29,13587.07,Recovered,City Hospital,4,Yes
+1450,61,Male,Hypertension,1,10028.75,Recovered,General Hospital,7,Yes
+1451,80,Male,COVID-19,36,17513.55,Recovered,Specialty Center,12,Yes
+1452,12,Male,Asthma,36,14864.13,Recovered,Care Clinic,11,Yes
+1453,85,Male,COVID-19,22,14665.27,Recovered,Care Clinic,9,No
+1454,22,Female,Heart Disease,28,13735.79,Recovered,General Hospital,12,No
+1455,19,Female,Cancer,23,10301.24,Recovered,Specialty Center,10,Yes
+1456,12,Female,Heart Disease,10,8998.18,Recovered,Specialty Center,2,Yes
+1457,76,Male,Diabetes,8,12310.84,Recovered,Specialty Center,8,Yes
+1458,50,Male,Stroke,28,15127.06,Under Treatment,Care Clinic,2,Yes
+1459,23,Male,Cancer,34,15442.41,Recovered,General Hospital,4,No
+1460,9,Female,Heart Disease,13,6468.2,Recovered,Specialty Center,5,No
+1461,85,Male,Hypertension,23,11882.37,Recovered,Care Clinic,4,Yes
+1462,17,Male,COVID-19,30,16466.19,Dead,Specialty Center,12,Yes
+1463,2,Other,COVID-19,19,14010.51,Dead,General Hospital,4,Yes
+1464,37,Female,Cancer,24,8837.31,Recovered,General Hospital,12,Yes
+1465,61,Female,Diabetes,22,9849.97,Recovered,Specialty Center,9,Yes
+1466,75,Male,COVID-19,33,14609.95,Recovered,Specialty Center,11,Yes
+1467,85,Male,Diabetes,38,15574.3,Recovered,Specialty Center,8,No
+1468,69,Male,Heart Disease,28,15573.95,Under Treatment,Specialty Center,7,Yes
+1469,34,Male,Asthma,11,5844.93,Under Treatment,Care Clinic,12,Yes
+1470,10,Male,Asthma,16,9225.48,Recovered,City Hospital,2,No
+1471,77,Female,Cancer,27,15820.65,Recovered,City Hospital,7,Yes
+1472,2,Female,Diabetes,8,11298.57,Recovered,City Hospital,2,Yes
+1473,23,Male,Diabetes,35,12116.76,Recovered,Specialty Center,14,Yes
+1474,3,Female,Diabetes,25,14770.4,Recovered,General Hospital,11,Yes
+1475,85,Male,Heart Disease,24,9457.45,Under Treatment,Specialty Center,10,No
+1476,74,Female,Diabetes,6,10013.87,Recovered,Specialty Center,8,Yes
+1477,3,Female,Hypertension,12,11735.54,Recovered,City Hospital,4,No
+1478,79,Female,Cancer,27,14173.92,Recovered,General Hospital,6,Yes
+1479,63,Female,Hypertension,29,11810.16,Recovered,Care Clinic,10,Yes
+1480,74,Male,Heart Disease,21,7284.85,Recovered,General Hospital,1,Yes
+1481,47,Male,Diabetes,16,14583.89,Recovered,Care Clinic,11,Yes
+1482,73,Male,Stroke,8,5327.73,Recovered,Care Clinic,5,Yes
+1483,53,Female,Hypertension,18,9825.94,Recovered,Specialty Center,14,No
+1484,16,Male,Diabetes,2,6827.73,Recovered,Specialty Center,7,Yes
+1485,88,Male,Stroke,19,11831.1,Recovered,City Hospital,3,Yes
+1486,84,Female,Heart Disease,2,8830.15,Recovered,Specialty Center,7,Yes
+1487,30,Male,Cancer,28,15071.51,Recovered,City Hospital,6,Yes
+1488,13,Female,Diabetes,26,14031.15,Recovered,Care Clinic,8,Yes
+1489,65,Female,Kidney Disease,37,15736.58,Recovered,Specialty Center,10,Yes
+1490,68,Male,Stroke,8,6727.29,Recovered,City Hospital,7,Yes
+1491,60,Female,Stroke,3,10231.92,Recovered,Care Clinic,5,No
+1492,7,Male,Heart Disease,18,12461.14,Dead,Care Clinic,8,No
+1493,56,Female,Cancer,5,10028.54,Under Treatment,Care Clinic,4,Yes
+1494,50,Female,Heart Disease,3,7201.7,Dead,General Hospital,11,Yes
+1495,85,Male,Stroke,7,10567.08,Recovered,Care Clinic,5,Yes
+1496,30,Female,COVID-19,39,10641.23,Recovered,General Hospital,9,Yes
+1497,39,Male,Diabetes,19,14445.32,Recovered,City Hospital,9,Yes
+1498,63,Male,Kidney Disease,31,14250.43,Recovered,City Hospital,9,Yes
+1499,27,Male,Kidney Disease,21,11106.42,Recovered,Specialty Center,8,Yes
+1500,83,Male,Asthma,36,14665.67,Recovered,Care Clinic,2,No
+1501,14,Female,Heart Disease,10,7903.64,Recovered,Care Clinic,4,No
+1502,55,Male,Diabetes,32,15041.73,Recovered,General Hospital,14,Yes
+1503,40,Male,Kidney Disease,35,16301.76,Recovered,General Hospital,9,Yes
+1504,58,Male,COVID-19,1,11267.99,Recovered,Care Clinic,2,Yes
+1505,31,Female,Kidney Disease,5,8338.93,Under Treatment,Specialty Center,1,No
+1506,7,Male,Heart Disease,12,7091.68,Recovered,Specialty Center,13,Yes
+1507,73,Other,Asthma,20,17652.72,Recovered,Specialty Center,7,No
+1508,66,Other,Stroke,3,7644.3,Dead,Specialty Center,4,Yes
+1509,58,Female,Hypertension,26,13104.71,Recovered,Specialty Center,8,No
+1510,71,Female,COVID-19,24,11659.07,Recovered,City Hospital,14,No
+1511,69,Female,Stroke,16,7500.07,Dead,General Hospital,10,No
+1512,86,Female,Cancer,20,15056.68,Recovered,Care Clinic,5,Yes
+1513,80,Female,Cancer,9,6267.47,Recovered,City Hospital,10,No
+1514,78,Male,Stroke,20,14520.39,Recovered,General Hospital,5,Yes
+1515,60,Female,Kidney Disease,34,14785.35,Recovered,General Hospital,1,No
+1516,73,Male,Cancer,2,8952.05,Under Treatment,General Hospital,11,Yes
+1517,6,Male,Kidney Disease,13,9487.35,Under Treatment,Care Clinic,5,No
+1518,45,Male,COVID-19,20,12807.55,Recovered,City Hospital,3,No
+1519,48,Female,Asthma,26,13475.81,Recovered,General Hospital,6,Yes
+1520,41,Other,COVID-19,39,16834.51,Recovered,Specialty Center,13,No
+1521,63,Male,COVID-19,16,14133.21,Recovered,General Hospital,5,Yes
+1522,2,Female,Cancer,36,16036.08,Recovered,Care Clinic,2,Yes
+1523,59,Male,Diabetes,15,8016.84,Recovered,General Hospital,1,Yes
+1524,37,Female,Stroke,14,6510.94,Recovered,Specialty Center,4,Yes
+1525,44,Male,Diabetes,2,6076.99,Under Treatment,City Hospital,10,Yes
+1526,42,Male,Kidney Disease,39,18360.31,Recovered,Care Clinic,11,Yes
+1527,83,Male,Kidney Disease,1,8759.12,Recovered,City Hospital,12,No
+1528,44,Male,COVID-19,31,16741.96,Recovered,Specialty Center,2,Yes
+1529,81,Female,Asthma,5,9280.1,Recovered,City Hospital,1,Yes
+1530,65,Female,COVID-19,29,15218.22,Recovered,City Hospital,2,Yes
+1531,64,Male,Kidney Disease,12,8123.82,Recovered,Care Clinic,4,Yes
+1532,4,Female,COVID-19,23,14175.84,Recovered,Care Clinic,3,No
+1533,37,Female,Hypertension,23,16495.81,Recovered,City Hospital,6,No
+1534,30,Male,Cancer,15,10435.82,Recovered,General Hospital,11,No
+1535,46,Female,Stroke,14,12146.82,Under Treatment,Care Clinic,14,Yes
+1536,30,Male,Asthma,6,7065.88,Under Treatment,Specialty Center,6,Yes
+1537,58,Female,Cancer,5,10875.18,Recovered,City Hospital,13,Yes
+1538,29,Male,Kidney Disease,4,9667.09,Recovered,General Hospital,10,Yes
+1539,85,Male,Hypertension,7,9078.03,Recovered,Specialty Center,3,Yes
+1540,67,Female,COVID-19,2,5143.82,Recovered,City Hospital,6,No
+1541,50,Male,Asthma,14,11381.21,Recovered,Care Clinic,10,Yes
+1542,89,Female,Heart Disease,28,18142.15,Dead,Specialty Center,6,Yes
+1543,3,Male,Diabetes,9,9569.71,Recovered,Care Clinic,6,No
+1544,75,Female,Diabetes,29,19983.53,Dead,City Hospital,3,Yes
+1545,37,Male,Stroke,24,9816.03,Recovered,Care Clinic,13,Yes
+1546,85,Male,Stroke,35,13890.59,Recovered,Care Clinic,1,No
+1547,78,Female,Heart Disease,18,9770.03,Recovered,General Hospital,4,Yes
+1548,40,Female,COVID-19,11,9791.96,Recovered,City Hospital,5,No
+1549,27,Male,Diabetes,31,17081.7,Under Treatment,City Hospital,11,No
+1550,81,Female,Stroke,7,7431.09,Recovered,Specialty Center,8,No
+1551,88,Male,Stroke,31,14802.79,Under Treatment,General Hospital,2,Yes
+1552,35,Male,COVID-19,34,16941.67,Recovered,General Hospital,11,Yes
+1553,59,Female,Stroke,14,10858.62,Recovered,General Hospital,14,Yes
+1554,19,Female,Asthma,26,13693.6,Recovered,Care Clinic,12,Yes
+1555,3,Male,Stroke,23,12590.85,Under Treatment,Care Clinic,2,No
+1556,18,Male,COVID-19,22,16093.0,Recovered,Care Clinic,8,Yes
+1557,15,Female,COVID-19,20,10040.12,Recovered,Care Clinic,10,Yes
+1558,47,Male,Asthma,26,17383.86,Recovered,Specialty Center,1,Yes
+1559,26,Male,Cancer,3,6295.64,Dead,Specialty Center,5,Yes
+1560,41,Female,Cancer,15,12428.95,Dead,Care Clinic,9,Yes
+1561,81,Male,Diabetes,10,10929.55,Recovered,General Hospital,14,Yes
+1562,13,Female,Stroke,35,15756.3,Recovered,Care Clinic,4,No
+1563,18,Male,Diabetes,13,10394.42,Recovered,General Hospital,3,Yes
+1564,76,Male,Diabetes,8,10153.22,Under Treatment,Specialty Center,9,Yes
+1565,86,Female,Asthma,5,7757.03,Recovered,General Hospital,3,Yes
+1566,37,Male,Kidney Disease,8,7448.84,Under Treatment,General Hospital,14,Yes
+1567,45,Female,COVID-19,22,15335.17,Recovered,City Hospital,3,Yes
+1568,11,Female,Kidney Disease,34,14747.8,Recovered,Care Clinic,13,No
+1569,13,Female,Hypertension,5,8404.0,Recovered,City Hospital,7,Yes
+1570,55,Female,Heart Disease,25,12759.12,Recovered,Care Clinic,13,No
+1571,89,Female,Asthma,31,15475.72,Recovered,General Hospital,9,Yes
+1572,56,Male,COVID-19,13,12090.71,Recovered,General Hospital,2,Yes
+1573,19,Other,COVID-19,10,7742.75,Recovered,Specialty Center,13,Yes
+1574,1,Male,Hypertension,6,2779.11,Recovered,General Hospital,10,No
+1575,78,Male,Hypertension,19,17231.07,Recovered,Care Clinic,12,Yes
+1576,2,Male,Diabetes,32,12063.46,Recovered,Specialty Center,10,No
+1577,5,Male,Cancer,4,8628.41,Recovered,Specialty Center,11,Yes
+1578,7,Male,Kidney Disease,29,11909.53,Recovered,City Hospital,14,Yes
+1579,27,Female,Hypertension,30,14384.09,Dead,Care Clinic,10,Yes
+1580,31,Male,Cancer,27,9198.73,Dead,Specialty Center,7,Yes
+1581,80,Male,Diabetes,31,19813.14,Recovered,General Hospital,10,No
+1582,57,Male,Stroke,11,9250.13,Recovered,General Hospital,11,No
+1583,88,Male,Diabetes,35,15417.37,Recovered,General Hospital,14,Yes
+1584,34,Male,COVID-19,34,17551.24,Recovered,Specialty Center,2,Yes
+1585,6,Female,Asthma,35,14008.12,Recovered,Specialty Center,1,No
+1586,54,Male,Cancer,39,12480.05,Recovered,Care Clinic,13,No
+1587,3,Female,Cancer,10,12867.14,Recovered,General Hospital,7,Yes
+1588,11,Female,Cancer,30,9385.29,Recovered,Specialty Center,9,Yes
+1589,21,Female,Diabetes,10,10085.07,Dead,Care Clinic,10,Yes
+1590,60,Female,Stroke,32,11308.69,Recovered,Care Clinic,9,Yes
+1591,62,Male,Heart Disease,32,15978.42,Recovered,Care Clinic,4,No
+1592,24,Male,Diabetes,24,14510.02,Recovered,Specialty Center,4,Yes
+1593,47,Female,Hypertension,6,8093.32,Recovered,Care Clinic,2,Yes
+1594,66,Male,COVID-19,26,12092.44,Recovered,Specialty Center,12,Yes
+1595,55,Male,Stroke,32,13043.6,Under Treatment,City Hospital,12,Yes
+1596,36,Male,Asthma,13,10190.82,Recovered,Specialty Center,6,Yes
+1597,30,Female,Stroke,21,11195.44,Dead,City Hospital,6,Yes
+1598,60,Male,COVID-19,39,14385.36,Recovered,Care Clinic,7,Yes
+1599,59,Male,Diabetes,3,7022.24,Recovered,City Hospital,7,Yes
+1600,27,Male,Kidney Disease,30,13407.42,Recovered,General Hospital,1,Yes
+1601,7,Male,Diabetes,29,21177.97,Recovered,Specialty Center,12,No
+1602,1,Female,Diabetes,39,15890.48,Recovered,Care Clinic,10,No
+1603,40,Female,Kidney Disease,1,5966.62,Recovered,City Hospital,2,No
+1604,87,Female,Hypertension,29,15972.65,Recovered,Specialty Center,11,Yes
+1605,71,Male,COVID-19,25,18011.42,Recovered,Specialty Center,5,Yes
+1606,17,Male,Asthma,11,7676.39,Recovered,General Hospital,14,No
+1607,20,Male,Asthma,20,11594.07,Recovered,Care Clinic,11,Yes
+1608,31,Male,Kidney Disease,8,7264.09,Recovered,Specialty Center,2,Yes
+1609,32,Male,Asthma,2,10555.18,Dead,City Hospital,14,No
+1610,67,Female,Heart Disease,14,12326.67,Recovered,General Hospital,3,No
+1611,17,Female,COVID-19,4,9632.78,Dead,Care Clinic,4,Yes
+1612,43,Female,COVID-19,30,12431.61,Recovered,Care Clinic,4,No
+1613,84,Female,Diabetes,33,15537.1,Under Treatment,General Hospital,13,Yes
+1614,31,Female,Diabetes,34,18267.57,Recovered,City Hospital,6,No
+1615,9,Male,Kidney Disease,6,12481.97,Dead,City Hospital,11,Yes
+1616,61,Female,Hypertension,21,11544.18,Recovered,City Hospital,9,Yes
+1617,87,Other,Asthma,12,11423.17,Recovered,General Hospital,7,Yes
+1618,32,Male,COVID-19,39,19330.6,Recovered,General Hospital,4,No
+1619,88,Female,Kidney Disease,26,14215.94,Recovered,City Hospital,5,No
+1620,9,Female,Kidney Disease,26,16333.37,Under Treatment,Care Clinic,9,Yes
+1621,21,Other,Cancer,10,4662.16,Dead,General Hospital,9,No
+1622,23,Female,Heart Disease,29,15818.43,Recovered,City Hospital,13,Yes
+1623,28,Female,Diabetes,31,14934.1,Recovered,City Hospital,13,Yes
+1624,70,Female,Heart Disease,17,13297.41,Recovered,General Hospital,13,Yes
+1625,61,Male,Heart Disease,7,14194.61,Recovered,Care Clinic,11,No
+1626,20,Female,Cancer,29,16193.42,Recovered,Care Clinic,9,Yes
+1627,15,Male,Hypertension,39,12739.78,Recovered,General Hospital,2,Yes
+1628,50,Male,Kidney Disease,25,10753.38,Recovered,City Hospital,7,No
+1629,57,Male,Asthma,26,15321.96,Recovered,Care Clinic,10,Yes
+1630,35,Male,Stroke,11,11693.89,Recovered,Specialty Center,4,Yes
+1631,21,Female,COVID-19,3,12096.45,Recovered,City Hospital,3,Yes
+1632,59,Male,Diabetes,18,13788.24,Under Treatment,Care Clinic,11,Yes
+1633,52,Male,Heart Disease,7,6416.42,Recovered,City Hospital,14,Yes
+1634,12,Female,Cancer,27,19425.31,Dead,Care Clinic,3,Yes
+1635,86,Female,Diabetes,36,15196.59,Under Treatment,Specialty Center,12,Yes
+1636,69,Male,Stroke,17,11976.43,Under Treatment,City Hospital,5,Yes
+1637,65,Female,Hypertension,7,7086.77,Dead,City Hospital,5,Yes
+1638,41,Female,Asthma,25,15110.32,Recovered,Specialty Center,9,Yes
+1639,49,Female,COVID-19,23,16621.37,Recovered,City Hospital,1,Yes
+1640,28,Female,Diabetes,34,19143.66,Recovered,General Hospital,7,No
+1641,3,Female,Asthma,22,12661.46,Recovered,Care Clinic,3,Yes
+1642,61,Female,Diabetes,30,14503.29,Recovered,City Hospital,9,Yes
+1643,12,Female,Asthma,11,11691.16,Recovered,Care Clinic,3,No
+1644,54,Female,Kidney Disease,32,14422.21,Recovered,Care Clinic,7,Yes
+1645,6,Female,Diabetes,14,13089.95,Recovered,Specialty Center,1,Yes
+1646,36,Male,Cancer,11,13172.11,Recovered,General Hospital,12,No
+1647,85,Male,Diabetes,18,12481.27,Recovered,General Hospital,7,No
+1648,51,Female,Cancer,17,9946.48,Under Treatment,General Hospital,12,No
+1649,3,Female,Hypertension,12,9909.11,Recovered,General Hospital,3,No
+1650,46,Female,Diabetes,4,11482.9,Recovered,City Hospital,4,Yes
+1651,54,Female,Asthma,28,21490.49,Under Treatment,Care Clinic,14,Yes
+1652,66,Female,Heart Disease,12,12049.7,Dead,General Hospital,2,No
+1653,9,Female,Hypertension,8,7564.2,Recovered,Care Clinic,11,Yes
+1654,38,Other,COVID-19,31,13043.08,Recovered,Specialty Center,5,No
+1655,41,Male,COVID-19,35,15902.86,Under Treatment,General Hospital,3,Yes
+1656,52,Female,Heart Disease,6,10867.26,Recovered,General Hospital,12,No
+1657,81,Male,Heart Disease,18,8309.58,Recovered,Care Clinic,1,Yes
+1658,85,Female,COVID-19,34,15891.01,Recovered,Care Clinic,10,Yes
+1659,85,Male,COVID-19,25,14892.59,Recovered,Care Clinic,2,Yes
+1660,41,Other,Hypertension,26,15529.03,Recovered,General Hospital,12,Yes
+1661,60,Female,Kidney Disease,15,11004.61,Recovered,City Hospital,14,Yes
+1662,51,Female,Stroke,5,4694.94,Recovered,Care Clinic,13,Yes
+1663,53,Female,Kidney Disease,37,20046.82,Under Treatment,Care Clinic,14,Yes
+1664,3,Female,Kidney Disease,33,18875.46,Recovered,Specialty Center,1,Yes
+1665,20,Male,Cancer,32,15472.34,Recovered,City Hospital,1,Yes
+1666,22,Female,Diabetes,2,6495.12,Recovered,City Hospital,8,No
+1667,88,Female,Stroke,17,10854.42,Recovered,City Hospital,6,No
+1668,43,Female,Heart Disease,31,14062.1,Recovered,Specialty Center,7,Yes
+1669,49,Female,Hypertension,20,12540.64,Recovered,Care Clinic,3,Yes
+1670,29,Male,Stroke,33,16302.64,Recovered,City Hospital,11,No
+1671,76,Male,Diabetes,25,10076.74,Recovered,City Hospital,4,Yes
+1672,35,Female,Asthma,29,10436.14,Recovered,Care Clinic,5,Yes
+1673,87,Male,COVID-19,39,16150.31,Recovered,Care Clinic,9,Yes
+1674,78,Male,Cancer,9,9646.59,Under Treatment,General Hospital,2,Yes
+1675,57,Male,Hypertension,21,8882.54,Recovered,Specialty Center,7,Yes
+1676,31,Male,Kidney Disease,33,16022.27,Under Treatment,City Hospital,9,No
+1677,54,Female,Heart Disease,29,16968.24,Recovered,General Hospital,10,Yes
+1678,39,Male,Stroke,24,11803.05,Recovered,Care Clinic,2,Yes
+1679,88,Male,COVID-19,2,9956.39,Recovered,City Hospital,1,Yes
+1680,40,Female,Diabetes,19,9638.57,Dead,City Hospital,9,Yes
+1681,80,Male,Asthma,16,12172.45,Recovered,Specialty Center,10,No
+1682,65,Male,COVID-19,37,13532.97,Dead,City Hospital,12,Yes
+1683,22,Male,Hypertension,3,7258.2,Recovered,City Hospital,4,Yes
+1684,14,Female,Stroke,22,9434.01,Dead,City Hospital,8,No
+1685,14,Male,COVID-19,19,11582.72,Recovered,Specialty Center,11,Yes
+1686,59,Female,Stroke,26,14894.83,Recovered,City Hospital,13,Yes
+1687,67,Female,Kidney Disease,32,18367.24,Recovered,City Hospital,9,Yes
+1688,70,Male,Cancer,16,9051.87,Recovered,City Hospital,11,Yes
+1689,45,Male,Kidney Disease,19,10707.21,Recovered,City Hospital,7,Yes
+1690,75,Female,Stroke,35,11320.88,Recovered,Care Clinic,5,Yes
+1691,11,Male,Hypertension,35,17211.75,Recovered,Specialty Center,7,Yes
+1692,66,Male,Cancer,30,12262.5,Recovered,City Hospital,9,Yes
+1693,60,Male,Diabetes,7,6563.18,Recovered,City Hospital,6,Yes
+1694,76,Female,Asthma,21,11928.32,Recovered,City Hospital,11,No
+1695,57,Female,Cancer,6,11538.47,Recovered,Care Clinic,14,Yes
+1696,64,Male,Stroke,19,9451.36,Under Treatment,General Hospital,6,No
+1697,88,Female,Stroke,11,12624.83,Under Treatment,Care Clinic,13,No
+1698,24,Female,Heart Disease,20,13849.06,Recovered,General Hospital,14,No
+1699,18,Female,Hypertension,11,9859.95,Recovered,General Hospital,7,No
+1700,21,Female,Diabetes,17,13497.0,Recovered,City Hospital,1,No
+1701,86,Female,Diabetes,11,9660.85,Recovered,Care Clinic,3,Yes
+1702,83,Female,Cancer,11,6914.67,Recovered,General Hospital,3,Yes
+1703,66,Male,Heart Disease,22,12528.09,Recovered,Specialty Center,5,Yes
+1704,81,Female,Diabetes,36,15634.46,Recovered,City Hospital,6,Yes
+1705,55,Female,Diabetes,26,10617.53,Recovered,City Hospital,3,Yes
+1706,63,Female,COVID-19,28,16584.51,Recovered,Specialty Center,14,No
+1707,68,Male,COVID-19,1,5293.61,Recovered,General Hospital,2,Yes
+1708,74,Female,Stroke,13,6270.24,Recovered,General Hospital,6,No
+1709,43,Male,Cancer,25,11002.11,Recovered,General Hospital,5,Yes
+1710,14,Male,Cancer,37,17219.03,Recovered,City Hospital,13,Yes
+1711,78,Female,Cancer,17,14051.52,Recovered,Specialty Center,3,No
+1712,26,Male,Stroke,9,9918.72,Recovered,Care Clinic,11,Yes
+1713,11,Male,Kidney Disease,21,12656.24,Recovered,Specialty Center,2,No
+1714,89,Male,Kidney Disease,29,19945.97,Recovered,City Hospital,12,Yes
+1715,31,Female,Hypertension,15,8513.29,Dead,General Hospital,8,Yes
+1716,31,Male,Asthma,21,10880.02,Under Treatment,Care Clinic,5,No
+1717,43,Male,Cancer,3,7063.07,Under Treatment,Care Clinic,3,Yes
+1718,89,Male,Cancer,20,9145.37,Recovered,General Hospital,9,Yes
+1719,31,Female,Cancer,35,14218.54,Dead,Specialty Center,4,Yes
+1720,87,Male,Hypertension,26,17954.55,Recovered,General Hospital,9,Yes
+1721,42,Male,Hypertension,33,14898.82,Recovered,General Hospital,3,Yes
+1722,14,Female,Heart Disease,36,16868.52,Recovered,Specialty Center,1,Yes
+1723,50,Male,COVID-19,26,10965.69,Dead,City Hospital,3,No
+1724,17,Male,Diabetes,26,13072.46,Recovered,Care Clinic,12,No
+1725,70,Female,Asthma,1,10231.85,Recovered,City Hospital,13,No
+1726,5,Female,Heart Disease,11,8376.87,Recovered,Care Clinic,4,No
+1727,83,Female,Diabetes,6,13111.55,Recovered,Care Clinic,4,Yes
+1728,43,Male,Kidney Disease,15,11761.14,Recovered,General Hospital,10,Yes
+1729,76,Male,Heart Disease,13,13878.17,Recovered,General Hospital,9,No
+1730,64,Male,COVID-19,20,14446.19,Recovered,Care Clinic,12,Yes
+1731,35,Female,Hypertension,36,17942.33,Recovered,City Hospital,14,Yes
+1732,15,Male,Cancer,14,11761.31,Recovered,Specialty Center,2,Yes
+1733,56,Female,Kidney Disease,17,12256.66,Recovered,General Hospital,14,Yes
+1734,86,Female,Heart Disease,38,19685.0,Under Treatment,Specialty Center,5,No
+1735,77,Female,Asthma,37,14586.25,Recovered,General Hospital,4,No
+1736,78,Male,Asthma,1,8418.22,Recovered,City Hospital,10,No
+1737,70,Male,Kidney Disease,7,5385.11,Recovered,Specialty Center,7,Yes
+1738,11,Male,Stroke,20,16078.18,Recovered,Specialty Center,5,No
+1739,30,Male,Stroke,8,11038.49,Recovered,City Hospital,6,No
+1740,67,Male,Diabetes,1,8586.07,Recovered,City Hospital,1,Yes
+1741,9,Female,Asthma,10,8171.04,Recovered,City Hospital,1,Yes
+1742,15,Male,Stroke,8,8988.0,Recovered,City Hospital,10,Yes
+1743,7,Female,Stroke,3,8919.34,Recovered,Care Clinic,8,Yes
+1744,4,Other,Hypertension,11,4154.81,Recovered,Specialty Center,12,Yes
+1745,32,Female,Asthma,13,11522.23,Recovered,General Hospital,11,Yes
+1746,12,Female,Heart Disease,31,13781.16,Recovered,General Hospital,6,No
+1747,89,Male,Kidney Disease,35,19171.97,Recovered,Care Clinic,9,Yes
+1748,79,Male,Asthma,26,15446.2,Dead,City Hospital,8,Yes
+1749,30,Male,Heart Disease,17,12932.05,Recovered,Care Clinic,3,No
+1750,27,Female,Stroke,8,11965.93,Recovered,General Hospital,9,Yes
+1751,8,Female,COVID-19,30,16717.77,Recovered,City Hospital,7,Yes
+1752,27,Female,Heart Disease,35,21503.19,Recovered,Specialty Center,8,Yes
+1753,79,Male,Cancer,30,15866.8,Recovered,Specialty Center,14,Yes
+1754,70,Female,Hypertension,5,11863.34,Recovered,General Hospital,9,Yes
+1755,49,Other,Diabetes,32,19089.94,Dead,Specialty Center,8,Yes
+1756,51,Male,Stroke,22,12442.87,Recovered,Specialty Center,2,No
+1757,33,Female,Stroke,28,16584.75,Recovered,General Hospital,14,Yes
+1758,85,Male,Stroke,13,11895.7,Recovered,Care Clinic,2,Yes
+1759,24,Female,COVID-19,32,14481.49,Recovered,Care Clinic,10,Yes
+1760,23,Female,Heart Disease,4,10552.72,Recovered,City Hospital,3,No
+1761,78,Male,Cancer,25,15051.52,Recovered,Specialty Center,6,Yes
+1762,24,Male,Asthma,13,16997.86,Recovered,General Hospital,4,Yes
+1763,62,Male,Stroke,35,17843.25,Recovered,General Hospital,12,Yes
+1764,41,Female,Asthma,5,10748.72,Recovered,Care Clinic,14,Yes
+1765,31,Male,Diabetes,6,11937.97,Recovered,Specialty Center,5,Yes
+1766,3,Male,Hypertension,28,15311.71,Recovered,City Hospital,5,No
+1767,85,Female,Hypertension,9,9827.05,Under Treatment,City Hospital,14,Yes
+1768,20,Male,COVID-19,39,17068.69,Recovered,Care Clinic,11,Yes
+1769,28,Female,Heart Disease,6,4896.74,Recovered,General Hospital,11,Yes
+1770,37,Female,Kidney Disease,10,8683.18,Recovered,Specialty Center,3,No
+1771,5,Female,Heart Disease,36,20338.55,Recovered,City Hospital,7,No
+1772,16,Female,Hypertension,26,15366.77,Recovered,City Hospital,8,Yes
+1773,23,Male,Hypertension,3,7363.17,Recovered,Care Clinic,6,No
+1774,6,Male,Hypertension,1,10599.08,Recovered,City Hospital,5,Yes
+1775,62,Female,Stroke,21,16120.42,Recovered,Care Clinic,13,No
+1776,7,Male,COVID-19,31,15381.99,Recovered,Specialty Center,3,Yes
+1777,79,Other,Kidney Disease,14,16665.03,Recovered,City Hospital,9,Yes
+1778,62,Female,Diabetes,27,14450.92,Recovered,Care Clinic,13,Yes
+1779,18,Female,COVID-19,22,11990.53,Recovered,City Hospital,14,Yes
+1780,41,Male,Diabetes,26,14328.93,Recovered,Specialty Center,3,No
+1781,46,Female,COVID-19,12,10803.33,Recovered,Care Clinic,7,Yes
+1782,79,Female,Asthma,10,10921.22,Recovered,General Hospital,4,Yes
+1783,3,Female,Diabetes,26,13695.24,Recovered,City Hospital,3,No
+1784,51,Male,Hypertension,38,19172.03,Recovered,General Hospital,8,Yes
+1785,7,Male,COVID-19,37,13479.17,Recovered,Care Clinic,7,No
+1786,1,Male,Hypertension,12,10521.37,Dead,City Hospital,10,Yes
+1787,70,Male,Stroke,38,16169.42,Recovered,General Hospital,8,No
+1788,64,Female,Heart Disease,34,16749.09,Recovered,Care Clinic,9,Yes
+1789,30,Male,Stroke,3,2796.76,Recovered,City Hospital,6,No
+1790,67,Female,Diabetes,17,12416.51,Recovered,Care Clinic,3,Yes
+1791,78,Male,Hypertension,1,7578.71,Recovered,City Hospital,6,Yes
+1792,51,Male,Hypertension,29,10291.02,Recovered,General Hospital,11,Yes
+1793,5,Male,Diabetes,32,15993.17,Recovered,Specialty Center,3,Yes
+1794,43,Male,Stroke,15,10779.51,Recovered,City Hospital,6,No
+1795,23,Female,Cancer,33,18800.75,Recovered,Care Clinic,6,Yes
+1796,56,Male,Asthma,15,11308.68,Recovered,City Hospital,6,Yes
+1797,27,Male,Heart Disease,37,17669.54,Recovered,Specialty Center,14,Yes
+1798,4,Female,Stroke,28,16861.39,Recovered,City Hospital,5,Yes
+1799,69,Male,Diabetes,10,11161.33,Recovered,Care Clinic,3,No
+1800,76,Female,Stroke,25,12220.72,Recovered,General Hospital,6,No
+1801,79,Male,Asthma,7,10857.39,Recovered,General Hospital,8,Yes
+1802,33,Male,Hypertension,3,8144.15,Recovered,Specialty Center,8,No
+1803,71,Female,Stroke,4,6963.11,Recovered,Care Clinic,10,Yes
+1804,88,Male,Stroke,27,14507.46,Recovered,Specialty Center,7,No
+1805,84,Male,Hypertension,31,11415.51,Dead,Care Clinic,12,Yes
+1806,89,Female,Heart Disease,35,14389.98,Recovered,Care Clinic,5,Yes
+1807,20,Female,COVID-19,6,5182.05,Recovered,City Hospital,7,Yes
+1808,81,Male,Cancer,3,7659.03,Recovered,City Hospital,3,Yes
+1809,35,Female,Asthma,21,8962.34,Recovered,General Hospital,10,Yes
+1810,48,Male,Kidney Disease,15,11604.98,Recovered,General Hospital,5,Yes
+1811,73,Female,COVID-19,18,14087.26,Recovered,Specialty Center,10,No
+1812,17,Female,Asthma,22,14585.35,Recovered,General Hospital,6,Yes
+1813,7,Male,COVID-19,8,5742.41,Recovered,Specialty Center,3,Yes
+1814,48,Female,Cancer,39,13280.03,Recovered,Specialty Center,13,No
+1815,77,Male,Hypertension,9,7713.93,Dead,Care Clinic,7,Yes
+1816,82,Female,Heart Disease,6,8262.88,Recovered,City Hospital,3,Yes
+1817,40,Male,Stroke,37,12486.29,Recovered,General Hospital,7,Yes
+1818,34,Female,Diabetes,16,9319.95,Dead,City Hospital,8,No
+1819,11,Female,Kidney Disease,29,12581.65,Recovered,Specialty Center,5,Yes
+1820,78,Female,Heart Disease,31,13672.34,Under Treatment,Specialty Center,1,Yes
+1821,16,Female,COVID-19,39,11403.7,Recovered,Specialty Center,1,Yes
+1822,19,Male,Hypertension,1,3608.17,Recovered,Care Clinic,3,Yes
+1823,9,Male,Diabetes,36,14650.11,Recovered,City Hospital,2,Yes
+1824,29,Female,Kidney Disease,6,6459.84,Recovered,City Hospital,5,Yes
+1825,73,Female,Diabetes,15,10299.11,Recovered,General Hospital,8,No
+1826,2,Male,Diabetes,21,11064.33,Recovered,Care Clinic,4,Yes
+1827,40,Other,Diabetes,6,8761.62,Dead,Care Clinic,13,Yes
+1828,56,Male,Diabetes,2,3615.2,Under Treatment,City Hospital,5,No
+1829,7,Female,Asthma,23,12203.73,Recovered,Specialty Center,5,No
+1830,57,Male,Asthma,30,10543.52,Recovered,Care Clinic,8,No
+1831,36,Male,Hypertension,26,14870.13,Recovered,Specialty Center,6,Yes
+1832,85,Male,Hypertension,24,15433.57,Recovered,General Hospital,10,No
+1833,23,Male,Stroke,37,14086.21,Recovered,Specialty Center,10,No
+1834,28,Female,Hypertension,24,12702.21,Recovered,Care Clinic,5,No
+1835,80,Male,Heart Disease,29,15378.09,Recovered,Specialty Center,12,No
+1836,89,Female,Heart Disease,19,10882.14,Recovered,City Hospital,8,No
+1837,36,Female,COVID-19,1,7511.52,Under Treatment,General Hospital,11,No
+1838,9,Male,Diabetes,5,6210.85,Recovered,General Hospital,9,Yes
+1839,67,Male,Diabetes,28,17893.59,Recovered,General Hospital,10,No
+1840,60,Female,Asthma,39,16505.21,Recovered,Specialty Center,4,Yes
+1841,55,Male,Diabetes,20,11239.8,Recovered,Specialty Center,1,Yes
+1842,10,Female,Stroke,13,12126.31,Recovered,Care Clinic,13,Yes
+1843,36,Male,Kidney Disease,26,14963.04,Recovered,General Hospital,6,No
+1844,73,Female,Asthma,15,6660.22,Recovered,Care Clinic,8,No
+1845,1,Female,Hypertension,18,14197.37,Recovered,General Hospital,8,Yes
+1846,65,Female,Heart Disease,21,11684.65,Recovered,Care Clinic,5,Yes
+1847,73,Male,Heart Disease,36,11447.51,Recovered,Specialty Center,6,No
+1848,27,Male,Stroke,27,13099.17,Recovered,Specialty Center,8,No
+1849,31,Female,COVID-19,26,11011.35,Recovered,General Hospital,13,No
+1850,67,Other,Stroke,23,13813.81,Recovered,General Hospital,2,Yes
+1851,43,Male,Asthma,31,16795.72,Dead,Care Clinic,8,No
+1852,83,Female,Kidney Disease,2,7508.85,Recovered,Care Clinic,2,No
+1853,33,Male,Cancer,19,10236.49,Under Treatment,City Hospital,11,Yes
+1854,6,Male,COVID-19,31,12328.85,Recovered,Specialty Center,3,Yes
+1855,26,Female,Asthma,18,12553.07,Under Treatment,Care Clinic,8,No
+1856,43,Male,Asthma,30,14138.96,Recovered,Specialty Center,7,No
+1857,52,Female,Cancer,16,7675.5,Recovered,Specialty Center,5,Yes
+1858,24,Male,Kidney Disease,14,12363.8,Under Treatment,City Hospital,10,No
+1859,20,Female,Asthma,20,10058.37,Recovered,City Hospital,14,No
+1860,52,Male,Hypertension,6,9951.12,Under Treatment,Care Clinic,11,No
+1861,52,Male,Cancer,1,5924.73,Recovered,Specialty Center,10,Yes
+1862,42,Male,Stroke,26,11733.81,Dead,General Hospital,12,Yes
+1863,54,Male,Hypertension,6,8928.17,Recovered,General Hospital,9,Yes
+1864,77,Female,Kidney Disease,18,16631.4,Recovered,Care Clinic,3,Yes
+1865,64,Male,Kidney Disease,6,9587.81,Recovered,Specialty Center,9,Yes
+1866,82,Female,Stroke,38,14566.27,Recovered,City Hospital,4,Yes
+1867,29,Female,Cancer,38,18532.67,Recovered,General Hospital,14,Yes
+1868,29,Female,Cancer,34,14801.99,Recovered,General Hospital,4,No
+1869,41,Female,Heart Disease,2,11182.12,Recovered,General Hospital,2,Yes
+1870,54,Female,COVID-19,30,10755.27,Recovered,General Hospital,3,Yes
+1871,47,Male,Hypertension,10,13675.68,Recovered,Care Clinic,11,Yes
+1872,16,Female,Hypertension,10,11216.93,Dead,General Hospital,9,Yes
+1873,68,Male,Asthma,4,5725.56,Recovered,Care Clinic,10,Yes
+1874,54,Female,Asthma,29,11333.49,Recovered,Care Clinic,5,No
+1875,44,Female,COVID-19,9,11656.78,Recovered,General Hospital,8,Yes
+1876,64,Male,Hypertension,8,7792.82,Recovered,Care Clinic,10,Yes
+1877,54,Male,Kidney Disease,5,5334.0,Recovered,City Hospital,14,Yes
+1878,11,Male,COVID-19,33,15701.75,Recovered,Specialty Center,9,Yes
+1879,1,Female,Cancer,21,13575.05,Recovered,General Hospital,5,No
+1880,47,Female,Diabetes,5,9527.85,Recovered,Care Clinic,1,Yes
+1881,72,Female,Kidney Disease,30,11593.52,Recovered,City Hospital,7,No
+1882,74,Male,Asthma,20,10442.98,Recovered,General Hospital,3,Yes
+1883,6,Male,Heart Disease,17,11538.1,Recovered,Care Clinic,12,Yes
+1884,53,Male,Kidney Disease,5,5374.3,Recovered,Specialty Center,12,Yes
+1885,15,Male,Stroke,9,8711.98,Recovered,City Hospital,7,Yes
+1886,39,Female,Stroke,31,14735.83,Recovered,Specialty Center,11,Yes
+1887,52,Female,Asthma,8,9020.37,Recovered,General Hospital,11,No
+1888,47,Female,Cancer,3,2862.41,Recovered,City Hospital,10,Yes
+1889,69,Female,COVID-19,15,9567.23,Recovered,Specialty Center,11,Yes
+1890,67,Male,Asthma,18,9672.99,Recovered,General Hospital,9,Yes
+1891,40,Male,Diabetes,14,8778.31,Recovered,Care Clinic,1,No
+1892,77,Female,Heart Disease,8,12580.42,Dead,Specialty Center,12,Yes
+1893,60,Male,Diabetes,18,12663.9,Dead,City Hospital,12,Yes
+1894,59,Male,Hypertension,23,11452.03,Recovered,Care Clinic,3,Yes
+1895,61,Male,Heart Disease,21,15635.27,Recovered,Care Clinic,8,Yes
+1896,82,Male,Heart Disease,32,18638.22,Recovered,City Hospital,14,Yes
+1897,50,Male,Cancer,3,7335.12,Recovered,Care Clinic,3,Yes
+1898,29,Female,Hypertension,22,10573.36,Recovered,Specialty Center,1,Yes
+1899,24,Female,Diabetes,21,13610.11,Under Treatment,Specialty Center,14,No
+1900,82,Male,Hypertension,35,12129.16,Recovered,Care Clinic,12,Yes
+1901,51,Female,Heart Disease,37,16645.95,Recovered,City Hospital,13,Yes
+1902,81,Female,Hypertension,26,12503.66,Recovered,Specialty Center,13,Yes
+1903,32,Male,Diabetes,35,11402.06,Recovered,General Hospital,10,Yes
+1904,53,Male,Kidney Disease,8,12385.73,Recovered,City Hospital,13,No
+1905,70,Female,Kidney Disease,10,6867.16,Recovered,Care Clinic,8,Yes
+1906,22,Female,Hypertension,30,8639.5,Recovered,General Hospital,3,Yes
+1907,16,Male,COVID-19,14,9818.57,Recovered,City Hospital,7,No
+1908,74,Female,Cancer,26,9684.43,Recovered,General Hospital,7,Yes
+1909,42,Female,Hypertension,21,16367.53,Recovered,General Hospital,12,No
+1910,28,Female,Stroke,10,7881.11,Recovered,Specialty Center,2,Yes
+1911,72,Male,Stroke,5,13554.0,Recovered,Specialty Center,14,No
+1912,43,Female,Kidney Disease,19,6991.43,Recovered,City Hospital,4,No
+1913,89,Male,Stroke,23,18242.91,Under Treatment,Care Clinic,3,Yes
+1914,18,Male,Kidney Disease,26,12909.65,Recovered,General Hospital,11,Yes
+1915,67,Female,COVID-19,22,11400.48,Recovered,Care Clinic,7,Yes
+1916,13,Male,Hypertension,9,8773.03,Recovered,City Hospital,8,No
+1917,31,Male,Asthma,9,11253.85,Recovered,General Hospital,7,Yes
+1918,78,Male,Asthma,32,12675.07,Recovered,Specialty Center,8,Yes
+1919,29,Male,Asthma,7,10756.64,Recovered,Care Clinic,8,Yes
+1920,15,Female,Heart Disease,35,14004.63,Recovered,General Hospital,11,Yes
+1921,30,Female,Heart Disease,30,12779.38,Recovered,Care Clinic,11,No
+1922,13,Male,Stroke,25,12506.8,Recovered,Care Clinic,6,Yes
+1923,44,Female,Diabetes,10,11207.61,Recovered,City Hospital,14,Yes
+1924,12,Female,Diabetes,14,8103.96,Recovered,Care Clinic,3,No
+1925,86,Male,Heart Disease,33,19979.25,Recovered,Care Clinic,5,Yes
+1926,6,Male,COVID-19,14,9037.59,Recovered,Specialty Center,10,Yes
+1927,7,Female,Kidney Disease,7,14194.07,Recovered,General Hospital,7,No
+1928,30,Male,Kidney Disease,28,11656.23,Recovered,General Hospital,2,Yes
+1929,32,Male,Diabetes,35,21596.86,Recovered,Specialty Center,7,Yes
+1930,1,Female,Diabetes,9,11859.98,Recovered,Specialty Center,4,Yes
+1931,49,Male,COVID-19,12,14124.43,Recovered,City Hospital,5,Yes
+1932,44,Male,Hypertension,1,3830.05,Recovered,Specialty Center,4,Yes
+1933,12,Female,Kidney Disease,21,10017.56,Recovered,General Hospital,3,Yes
+1934,57,Female,COVID-19,32,12547.71,Recovered,Specialty Center,12,Yes
+1935,39,Male,COVID-19,25,13113.74,Recovered,Care Clinic,14,No
+1936,70,Female,Kidney Disease,25,15015.07,Recovered,Care Clinic,8,Yes
+1937,63,Male,Heart Disease,12,12517.75,Recovered,General Hospital,3,No
+1938,39,Male,COVID-19,23,13989.9,Recovered,City Hospital,1,Yes
+1939,24,Female,Heart Disease,29,15789.69,Recovered,General Hospital,6,No
+1940,4,Female,COVID-19,16,14580.33,Recovered,Specialty Center,10,Yes
+1941,68,Female,COVID-19,16,11011.09,Recovered,Specialty Center,7,Yes
+1942,40,Female,Heart Disease,14,9422.78,Recovered,General Hospital,8,Yes
+1943,4,Male,Diabetes,23,14356.9,Recovered,Care Clinic,8,Yes
+1944,81,Male,Cancer,25,14514.86,Recovered,General Hospital,3,Yes
+1945,86,Male,Stroke,18,8031.66,Recovered,General Hospital,5,Yes
+1946,73,Female,Stroke,25,13668.49,Recovered,Care Clinic,13,No
+1947,25,Male,Stroke,22,18852.89,Recovered,City Hospital,3,No
+1948,36,Female,Cancer,9,9402.29,Recovered,Care Clinic,5,No
+1949,42,Male,Kidney Disease,9,11875.94,Recovered,Specialty Center,11,Yes
+1950,62,Female,Cancer,37,15766.34,Recovered,City Hospital,10,No
+1951,38,Male,Heart Disease,4,12126.74,Recovered,Specialty Center,2,No
+1952,58,Male,Kidney Disease,25,14810.82,Recovered,Specialty Center,13,Yes
+1953,4,Female,Hypertension,29,12786.03,Recovered,City Hospital,11,No
+1954,82,Male,Asthma,16,13481.18,Recovered,General Hospital,7,Yes
+1955,15,Female,COVID-19,22,17188.12,Recovered,Care Clinic,10,Yes
+1956,75,Male,Diabetes,35,17313.82,Recovered,Specialty Center,14,Yes
+1957,36,Male,Asthma,12,10244.53,Recovered,City Hospital,6,Yes
+1958,72,Female,Diabetes,13,12030.83,Recovered,Care Clinic,11,No
+1959,57,Female,Heart Disease,25,14009.11,Recovered,Care Clinic,4,No
+1960,65,Female,Stroke,8,11231.63,Recovered,General Hospital,3,Yes
+1961,5,Male,Kidney Disease,18,10703.8,Recovered,City Hospital,4,No
+1962,13,Female,Asthma,10,7109.16,Recovered,Specialty Center,5,No
+1963,69,Male,Hypertension,23,15509.17,Recovered,City Hospital,11,Yes
+1964,18,Female,Stroke,16,16609.99,Recovered,Specialty Center,4,Yes
+1965,33,Female,Heart Disease,2,8642.14,Recovered,Care Clinic,14,Yes
+1966,66,Male,Kidney Disease,10,9622.29,Recovered,City Hospital,7,No
+1967,23,Female,Kidney Disease,22,19805.12,Recovered,General Hospital,1,Yes
+1968,3,Female,Cancer,11,12586.02,Recovered,City Hospital,9,No
+1969,81,Female,Asthma,37,18843.55,Recovered,City Hospital,12,Yes
+1970,30,Female,COVID-19,19,12567.03,Recovered,Care Clinic,1,No
+1971,63,Male,COVID-19,4,6753.06,Recovered,General Hospital,9,Yes
+1972,73,Female,Stroke,25,12340.51,Recovered,City Hospital,8,Yes
+1973,74,Female,Hypertension,21,11763.73,Recovered,Specialty Center,13,No
+1974,73,Female,Heart Disease,32,11507.24,Dead,Care Clinic,5,Yes
+1975,30,Female,Stroke,13,9701.0,Recovered,Specialty Center,5,Yes
+1976,84,Female,Kidney Disease,11,10127.25,Recovered,Specialty Center,1,Yes
+1977,50,Male,Heart Disease,22,11799.59,Recovered,Care Clinic,4,No
+1978,70,Female,Kidney Disease,26,14281.42,Recovered,Care Clinic,7,No
+1979,38,Female,Diabetes,32,14807.95,Recovered,Specialty Center,13,No
+1980,32,Male,COVID-19,18,11907.4,Recovered,Care Clinic,12,Yes
+1981,85,Male,Kidney Disease,29,12697.03,Dead,City Hospital,5,Yes
+1982,26,Female,Hypertension,17,10458.68,Recovered,Care Clinic,9,No
+1983,20,Female,Cancer,11,9740.78,Under Treatment,General Hospital,11,No
+1984,35,Male,Cancer,36,14148.79,Recovered,Specialty Center,2,Yes
+1985,76,Female,Heart Disease,33,15018.78,Recovered,Specialty Center,8,No
+1986,3,Female,COVID-19,31,13208.27,Recovered,City Hospital,3,Yes
+1987,72,Male,Diabetes,18,14215.94,Recovered,Specialty Center,14,Yes
+1988,84,Male,Stroke,14,9890.72,Recovered,Care Clinic,3,Yes
+1989,83,Female,Hypertension,30,15780.3,Under Treatment,City Hospital,5,No
+1990,70,Male,Kidney Disease,12,8588.87,Recovered,Specialty Center,6,Yes
+1991,67,Female,COVID-19,12,9469.62,Recovered,Specialty Center,5,Yes
+1992,50,Male,Diabetes,14,10267.8,Recovered,City Hospital,8,Yes
+1993,73,Female,Heart Disease,29,11116.5,Under Treatment,Specialty Center,2,Yes
+1994,30,Female,Stroke,5,4120.87,Recovered,General Hospital,4,No
+1995,68,Male,Hypertension,2,4113.49,Recovered,City Hospital,2,No
+1996,82,Other,Heart Disease,8,10715.68,Recovered,City Hospital,2,Yes
+1997,60,Female,Asthma,18,12786.42,Recovered,Specialty Center,10,Yes
+1998,83,Female,Cancer,21,11540.44,Under Treatment,City Hospital,10,Yes
+1999,14,Female,COVID-19,13,5960.72,Recovered,Care Clinic,12,Yes
+2000,66,Male,Stroke,1,9096.79,Recovered,Care Clinic,8,Yes
